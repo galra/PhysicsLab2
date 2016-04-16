@@ -1,0 +1,2772 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+מעבדה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-- תנועת אלקטרון בשדה מגנטי וחשמלי
+\end_layout
+
+\begin_layout Author
+דור קליינשטרן )
+\numeric on
+204881692
+\numeric off
+(, גל רעיוני )
+\numeric on
+305653487
+\numeric off
+(
+\end_layout
+
+\begin_layout Address
+
+\lang english
+galra@campus.technion.ac.il, dore@campus.technion.ac.il
+\end_layout
+
+\begin_layout Section*
+מטרת הניסוי
+\end_layout
+
+\begin_layout Standard
+אימות מודל תאורטי להתנהגויות זרם ומתח במעגלי קבל--נגד וסליל--נגד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+AC
+\lang hebrew
+, וחקירת יישום שלהם בבניית מסנן תדרים.
+ 
+\end_layout
+
+\begin_layout Section*
+מהלך הניסוי
+\end_layout
+
+\begin_layout Standard
+ניסוי זה מורכב מארבעה שלבים: ראשית בדקנו מהי התנגדות המחלול, והאם ניתן להזניח
+ אותה או שמא צריך לקחת אותה בחשבון בחישובים שלנו.
+ זה נעשה על ידי חישוב המתח נגדים שונים.
+ לאחר מכן בנינו מעגל CR עם 
+\begin_inset Formula $\tau$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ מסוים וראינו כיצד פונקצית מתח היציאה על הקבל משתנה לפי סדר הגודל של תדירות
+ מתח הכניסה.
+ לאחר מכן, בנינו מעגל LR עם 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\tau$
+\end_inset
+
+ מסוים ובדקנו את אותה השפעה.
+ לבסוף בנינו מעגל CR נוסף, וחישבנו את גודל היחס בין מתח היציאה למתח הכניסה
+ תוך כדי שינוי התדירות.
+\end_layout
+
+\begin_layout Section*
+מבוא
+\end_layout
+
+\begin_layout Standard
+הסתמכנו על המודל הבא:
+\end_layout
+
+\begin_layout Subsection*
+התנהגות מתח וזרם
+\end_layout
+
+\begin_layout Standard
+במעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\lang hebrew
+: 
+\begin_inset Formula $\frac{Q}{C}+R_{T}I=V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\lang hebrew
+: 
+\begin_inset Formula $L\frac{dI}{dt}+R_{T}I=V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפתרונות, בהתאמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+Q_{C} & = & CV_{0}-A\exp\left(-\frac{t}{\tau}\right)\label{eq:rc_q_eq}\\
+I_{L}(t) & =\pm & \frac{V_{0}}{R_{T}}-B\exp\left(-\frac{t}{\tau}\right)\label{eq:rl_i_eq}\\
+V_{C} & = & X_{C}\cdot\frac{dQ_{a}}{dt}=-KA\exp\left(-\frac{t}{\tau}\right),\,\,K-Pos.\,Const.\label{eq:rc_v_eq}\\
+V_{L} & = & X_{L}I_{a}=K_{1}-K_{2}B\exp\left(-\frac{t}{\tau}\right),\,\,K-Pos.\,Const.\label{eq:rl_v_eq}\\
+A & = & \frac{2CV_{0}}{e^{\pm\frac{T}{2t}}+1}\nonumber \\
+B & = & \frac{2V_{0}}{R_{T}\left(e^{\pm\frac{T}{2t}}+1\right)}\nonumber \\
++ & for & -\frac{T}{2}<t<0\nonumber \\
+- & for & 0<t<\frac{T}{2}\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור המעגלים בהתאמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & R_{T}C\\
+\tau & = & \frac{L}{R_{T}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+התנגדות פנימית
+\end_layout
+
+\begin_layout Standard
+לצורך חישוב ההתנגדות הפנימית של המחולל נשתמש בקשר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\frac{1}{V_{R}} & = & \frac{1}{V_{0}}+\frac{R_{i}}{V_{0}}\cdot\frac{1}{R}\label{eq:find_ri}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+עכבה וחסימת תדרים
+\end_layout
+
+\begin_layout Standard
+העכבות של סליל וקבל הן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+X_{L} & = & \omega L\\
+X_{C} & = & \frac{1}{\omega C}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מפל המתח במעגל קבל--נגד )איורים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:lpf_circuit}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:hpf_circuit}
+\end_layout
+
+\end_inset
+
+(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+V_{out,lpf} & = & V_{0}e^{i\omega t}-RI\left(=V_{0}e^{i\omega t}\left(1-\frac{R}{R-\frac{i}{\omega C}}\right)\right)\\
+V_{out,hpf} & = & RI\\
+H(\omega) & = & \left|\frac{V_{out}}{V_{0}}\right|\\
+ & \Downarrow\\
+H(\omega)_{lpf} & = & \frac{1}{\sqrt{1+\omega^{2}\tau^{2}}}\xrightarrow[\omega\rightarrow\infty]{}0\\
+H(\omega)_{hpf} & = & \frac{\omega\tau}{\sqrt{1+\omega^{2}\tau^{2}}}\xrightarrow[\omega\rightarrow\infty]{}1
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתייחס לתדר חסימה האפקטיבי )עבור שני המעגלים( כ--
+\begin_inset Formula $\omega_{0}=\frac{1}{RC}$
+\end_inset
+
+.
+ בתדר זה מתח היציאה נחתך ביחס של 
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+מהלך הניסוי
+\end_layout
+
+\begin_layout Subsection*
+מדידת התנגדות המחולל
+\end_layout
+
+\begin_layout Standard
+בנינו את המעגל הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename R_circuit.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מעגל למדידת התנגדות פנימית של מחולל
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומדדנו את מפל המתח 
+\begin_inset Formula $V_{R}$
+\end_inset
+
+ על נגדים שונים )ערכי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+R
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שונים(, ועל תדירויות מחולל שונות, עם מתח 
+\begin_inset Formula $V=1[Volt]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+חישוב קבוע הזמן של מעגל
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והתנהגות המתח
+\end_layout
+
+\begin_layout Standard
+בנינו את המעגל הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename RC_circuit.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תרשים מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\lang hebrew
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_circuit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומדדנו את ההתנגדות 
+\begin_inset Formula $R$
+\end_inset
+
+ לצורך הערכת 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ לאחר מכן בדקנו את התנהגות המתח )מדידה ע"פ המתואר בתרשים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_circuit}
+\end_layout
+
+\end_inset
+
+( בסביבות שונות ביחס ל--
+\begin_inset Formula $f_{0}=\frac{1}{\tau}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+חישוב קבוע הזמן במעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והתנהגות המתח
+\end_layout
+
+\begin_layout Standard
+בנינו את המעגל הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename RL_circuit_.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תרשים מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+LC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומדדנו את ההתנגדות 
+\begin_inset Formula $R$
+\end_inset
+
+ לצורך הערכת 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ לאחר מכן בדקנו את התנהגות המתח )מדידה ע"פ המתואר בתרשים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_circuit}
+\end_layout
+
+\end_inset
+
+( בסביבות שונות ביחס ל--
+\begin_inset Formula $f_{0}=\frac{1}{\tau}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $f_{0}$
+\end_inset
+
+ שהתקבל הוא באזור 
+\begin_inset Formula $7kHz$
+\end_inset
+
+, אולם בשל מגבלות טכניות לא עלה בידנו למדוד תדירות גבוהה ממנו, על כן מדדנו
+ עבור 
+\begin_inset Formula $f\ll f_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $f<f_{0}$
+\end_inset
+
+ ו--
+\begin_inset Formula $f\sim f_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+בניית מסנן תדרים ממעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\end_layout
+
+\begin_layout Standard
+תכננו לבנות את המעגלים הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename LPF_circuit_.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תרשים מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+LPF
+\lang hebrew
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:lpf_circuit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename HPF_circuit_.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תרשים מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+HPF
+\lang hebrew
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hpf_circuit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אולם הזמן עמד לנו לבניית מעגל 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:lpf_circuit}
+\end_layout
+
+\end_inset
+
+ בלבד.
+\end_layout
+
+\begin_layout Standard
+בחרנו את רכיבי המעגל כך שיעביר תדרים עד 
+\begin_inset Formula $10KHz$
+\end_inset
+
+ )
+\begin_inset Formula $R=97.6\pm0.1[Ohm],\,C=1.0\pm0.2[\mu F]$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+סרקנו טווחי תדרים שונים ומדדנו את מתח היציאה.
+\end_layout
+
+\begin_layout Section*
+תוצאות
+\end_layout
+
+\begin_layout Subsection*
+התנגדות המחולל
+\end_layout
+
+\begin_layout Standard
+עבור תדירויות שונות, התקבלו ערכים זהים לחלוטין )תדירויות: 
+\begin_inset Formula $2[Hz],\,3.5[Hz],\,15[Hz]$
+\end_inset
+
+(.
+ עבור נגדים שונים, באמצעות נוסחה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:find_ri}
+\end_layout
+
+\end_inset
+
+ קיבלנו את הקשר הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{1}{V_{R}} & = & A+\frac{1}{R}\cdot B
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומהתוצאות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ri_results.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מדידות לחישוב 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ri_measure"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+התקבל הקשר הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+A & = & 0.2520\pm0.0009=\frac{1}{V_{0}}\label{eq:ri_measure_intersect}\\
+B & = & 12.34\pm0.04\label{eq:ri_measure_slope}\\
+ &  & \Downarrow\nonumber \\
+R_{i} & = & \frac{\frac{R_{i}}{V_{0}}}{\frac{1}{V_{0}}}=\frac{B}{A}=49.0[Ohm]\nonumber \\
+\delta R_{i} & = & \sqrt{\left(\frac{\partial R_{i}}{\partial A}\cdot\delta A\right)^{2}+\left(\frac{\partial R_{i}}{\partial B}\cdot\delta B\right)^{2}}=0.2[Ohm]\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\end_layout
+
+\begin_layout Standard
+התקבלו התוצאות הבאות:
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & (R+R_{i})\cdot C=(97.6\pm0.1[Ohm]+49.0\pm0.2[Ohm])\cdot(2200\pm440[nF])\\
+\tau & = & 0.000322[sec]\\
+f_{0}=\frac{1}{\tau} & = & 3100[Hz]\\
+\delta f_{0} & = & \sqrt{\left(\frac{\partial\left(\frac{1}{\tau}\right)}{\partial R}\cdot\delta R\right)^{2}+\left(\frac{\partial\left(\frac{1}{\tau}\right)}{\partial R_{i}}\cdot\delta R_{i}\right)^{2}+\left(\frac{\partial\left(\frac{1}{\tau}\right)}{\partial C}\cdot\delta C\right)^{2}}=560[Hz]\\
+ & \Downarrow\\
+f_{0} & = & 3100\pm560[Hz]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/rc_scope/rc_freq_500.png
+	width 80page%
+	height 200line%
+	keepAspectRatio
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+שינוי המתח בזמן במעגל ה--
+\lang english
+RC
+\lang hebrew
+, בתדר 
+\begin_inset Formula $500Hz$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_big_T"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/rc_scope/rc_freq_3100.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+שינוי המתח בזמן במעגל ה--
+\lang english
+RC
+\lang hebrew
+, בתדר 
+\begin_inset Formula $3100Hz$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_T_tau"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/rc_scope/rc_freq_7000.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+שינוי המתח בזמן במעגל ה--
+\lang english
+RC
+\lang hebrew
+, בתדר 
+\begin_inset Formula $7000Hz$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_small_T"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+LC
+\end_layout
+
+\begin_layout Standard
+התקבלו התוצאות הבאות:
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & \frac{L}{R+R_{i}}=\frac{10\pm1[mH]}{97.6\pm0.1[Ohm]+49.0\pm0.2[Ohm]}\\
+\tau & = & 0.000141[sec]\\
+f_{0}=\frac{1}{\tau} & = & 7000[Hz]\\
+\delta f_{0} & = & \sqrt{\left(\frac{\partial\left(\frac{1}{\tau}\right)}{\partial R}\cdot\delta R\right)^{2}+\left(\frac{\partial\left(\frac{1}{\tau}\right)}{\partial R_{i}}\cdot\delta R_{i}\right)^{2}+\left(\frac{\partial\left(\frac{1}{\tau}\right)}{\partial L}\cdot\delta L\right)^{2}}=1.5\times10^{3}[Hz]\\
+ & \Downarrow\\
+f_{0} & = & (7\pm1.5)\times10^{3}[Hz]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/rl_scope/rl_freq_400.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+שינוי המתח בזמן במעגל ה--
+\lang english
+RL
+\lang hebrew
+, בתדר 
+\begin_inset Formula $400Hz$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_big_big_T"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/rl_scope/rl_freq_4000.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+שינוי המתח בזמן במעגל ה--
+\lang english
+RL
+\lang hebrew
+, בתדר 
+\begin_inset Formula $4000Hz$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_big_T"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/rl_scope/rl_freq_7000.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+שינוי המתח בזמן במעגל ה--
+\lang english
+RL
+\lang hebrew
+, בתדר 
+\begin_inset Formula $7000Hz$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_T_tau"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+מסנן תדרים
+\end_layout
+
+\begin_layout Standard
+אלו התוצאות שהתקבלו:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename exp2_figs/lpf/lpf_fixed.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Formula $H(\omega)$
+\end_inset
+
+ vs.
+ 
+\begin_inset Formula $f$
+\end_inset
+
+ in an LPF circuit (Fig.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:lpf_circuit}
+\end_layout
+
+\end_inset
+
+)
+\lang hebrew
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:lpf_results"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+מסקנות
+\end_layout
+
+\begin_layout Subsection*
+חישוב התנגדות פנימית
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:find_ri}
+\end_layout
+
+\end_inset
+
+ ומגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:ri_measure}
+\end_layout
+
+\end_inset
+
+, התקבל איבר חופשי השווה ל--
+\begin_inset Formula $\frac{1}{V_{0}}$
+\end_inset
+
+ )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:ri_measure_intersect}
+\end_layout
+
+\end_inset
+
+(, ולכן על מנת לקבל את ההתנגדות הפנימית של המחולל, עלינו לחלק את השיפוע
+ שקיבלנו )משוואה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:ri_measure_slope}
+\end_layout
+
+\end_inset
+
+( במקדם החופשי.
+ ראינו כי מפל מהתח על הנגד שלנו אינו משתנה עם התדירות )בתחום הנתון(.
+ מכאן נובע ש 
+\begin_inset Formula $R+R_{i}$
+\end_inset
+
+ אינם משתנים כתלות בתדירות, 
+\begin_inset Formula $R$
+\end_inset
+
+ הוא קבוע, ומכך נובע שגם ההתנגדות הפנימית של המחולל הינה קבועה ואינה משתנה
+ עם התדירות.
+ התקבלה שגיאה קטנה )
+\begin_inset Formula $\sim0.4\%$
+\end_inset
+
+(, ועל כן ערך זה מספק הערכה טובה למידת ההתנגדות הפנימית.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+>החלק עם 
+\begin_inset Formula $Vr$
+\end_inset
+
+ - למה אי אפשר למדוד?<
+\end_layout
+
+\begin_layout Subsection*
+מעגל
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\end_layout
+
+\begin_layout Standard
+ניתן לראות שעבור 
+\begin_inset Formula $T\gg\tau$
+\end_inset
+
+ )גרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_big_T}
+\end_layout
+
+\end_inset
+
+( רואים את הטעינה האקספוננציאלית של הקבל ואת הדעיכה שלו ואכן גרף זה תואם
+ למה שאנו מצפים לראות ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:rc_v_eq}
+\end_layout
+
+\end_inset
+
+, שכן ניתן לזהות בגרף תבנית מחזורית של אקספוננט עולה, מלווה באקספוננט דועך
+ אחריו.
+\end_layout
+
+\begin_layout Standard
+עבר 
+\begin_inset Formula $\tau$
+\end_inset
+
+ באותו סדר גודל של 
+\begin_inset Formula $T$
+\end_inset
+
+)גרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_T_tau}
+\end_layout
+
+\end_inset
+
+(, מתקבל גרף קרוב יותר ללינארי, מכיוון שאקספוננט )עולה או דועך( נראה כלינארי
+ בסביבת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+, ואנו לא חורגים בהרבה מטווח זמן זה )עדיין ניתן להבחין בעקמומיות קלהה( גם
+ מפיתוח טיילור ניתן להבחין בהתנהגות הלינארית של האקספוננט בסביבת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+: 
+\begin_inset Formula $\approx_{x\ll1}1+x$
+\end_inset
+
+
+\begin_inset Formula $\exp(x)=1+x+\frac{x^{2}}{2}+o(x^{2})$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $t\ll\tau$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\frac{t}{\tau}\ll1$
+\end_inset
+
+ ואז האקספוננט בקירוב לינארי.
+ כאשר 
+\begin_inset Formula $t$
+\end_inset
+
+ מתקרב ל--
+\begin_inset Formula $\tau$
+\end_inset
+
+, מתחילים להבחין בעקמומיות.
+\end_layout
+
+\begin_layout Standard
+בשל מגבלות טכניות של קריאת האוסילוסקופ, לא עלה בידנו למדוד עבור 
+\begin_inset Formula $T\ll\tau$
+\end_inset
+
+, אלא עבור 
+\begin_inset Formula $T\approx2\cdot\tau$
+\end_inset
+
+ )גרף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_small_T}
+\end_layout
+
+\end_inset
+
+(.
+ אולם ניתן להבחין גם עם זמן מחזור זה בהתנהגות הלינארית--מחזורית של המתח,
+ שכן מתקיים 
+\begin_inset Formula $\frac{t}{\tau}\ll1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\end_layout
+
+\begin_layout Standard
+כמוזכר, ביצענו מדידות עבור ערכים כלהלן: 
+\begin_inset Formula $T\gg\tau,\,T>\tau,\,T\sim\tau$
+\end_inset
+
+, אולם לא ביצענו מדידה עבור 
+\begin_inset Formula $T\ll\tau$
+\end_inset
+
+.
+ הסיבה לכך היא מגבלות טכניות במדידת תדרים גבוהים יותר ע"י הסקופ.
+\end_layout
+
+\begin_layout Standard
+ציפינו ע"פ משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:rl_v_eq}
+\end_layout
+
+\end_inset
+
+ למספר חיובי שדועך אקספוננציאלית למספר חיובי קטן יותר )
+\begin_inset Formula $0<t<T$
+\end_inset
+
+(, ולאחריו מספר שלילי שגדל אקספוננציאלית למספר שלילי גדול יותר )
+\begin_inset Formula $0>t>T$
+\end_inset
+
+(.
+ אכן, התוצאות המתקבלות הולמות את התיאוריה: מתקבלים גרפים הבנויים טלאים טלאים
+ מצורת אקספוננט דועך.
+ עבור 
+\begin_inset Formula $T\sim\tau$
+\end_inset
+
+ )גרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rl_T_tau}
+\end_layout
+
+\end_inset
+
+(, ניתן להבחין בעקמומיות המתאימה ל"אזור ההתכופפות" של אקספוננט )אזור 
+\begin_inset Formula $x=1$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\exp x$
+\end_inset
+
+(, עבור 
+\begin_inset Formula $T>\tau$
+\end_inset
+
+ )גרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rl_big_T}
+\end_layout
+
+\end_inset
+
+( כבר מתקבלת צורת ה--"ר", אך עדיין עם עקמומיות, ועבור 
+\begin_inset Formula $T\gg\tau$
+\end_inset
+
+ )גרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rl_big_big_T}
+\end_layout
+
+\end_inset
+
+( מתקבלת פונקציית מדרגה, בקירוב.
+\end_layout
+
+\begin_layout Subsection*
+מסנן תדרים
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות מסומן באדום בגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:lpf_results}
+\end_layout
+
+\end_inset
+
+,המסנן אכן חותך תדרים החל מסביבת 
+\begin_inset Formula $10kHz$
+\end_inset
+
+, בעייתי לקבוע על סמך הגרף לבדו היכן בדיוק נחתך החדר )ליחס של 
+\begin_inset Formula $\frac{1}{\sqrt{2}}$
+\end_inset
+
+, כמתואר בפרק המבוא(, בשל רזולוציית דגימה הנמוכה )
+\numeric on
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דגימות(.
+ עם זאת, נין לראות בבירור כי עבור תדרים הגדולים מקבוע הזמן, היחס בין מתח
+ היציאה למתח הכניסה קטן 
+\begin_inset Formula $1\gg$
+\end_inset
+
+, ועבור תדרים הנמוכים אנו מקבלים יחס 
+\begin_inset Formula $1\approx$
+\end_inset
+
+.
+ הסיבה לתוצאות הללו היא שהקבל בתדרים נמוכים נטען ומתפרק לאט ולכן הוא נחשב
+ כנתק מה שגורר מתח גבוה עליו.
+ ואילו בתדרים גבוהים הוא לא מספיק להטען או להפרק ולכן הוא נחשב שקצר, דבר
+ שגורר מתח יציאה נמוך.
+\end_layout
+
+\end_body
+\end_document

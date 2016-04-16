@@ -1,0 +1,39 @@
+
+exp1_lm1 = 
+
+
+Linear regression model:
+    y ~ 1 + x1
+
+Estimated Coefficients:
+                    Estimate          SE         tStat       pValue  
+                   ___________    __________    _______    __________
+
+    (Intercept)    -4.3647e-05    4.9335e-05    -0.8847       0.39934
+    x1                 0.28441     0.0039003     72.922    8.6725e-14
+
+
+Number of observations: 11, Error degrees of freedom: 9
+Root Mean Squared Error: 0.000164
+R-squared: 0.998,  Adjusted R-Squared 0.998
+F-statistic vs. constant model: 5.32e+03, p-value = 8.67e-14
+>> exp1_lm2
+
+exp1_lm2 = 
+
+
+Linear regression model:
+    y ~ 1 + x1
+
+Estimated Coefficients:
+                    Estimate          SE         tStat        pValue  
+                   ___________    __________    ________    __________
+
+    (Intercept)    -3.6409e-05    4.7014e-05    -0.77444       0.45853
+    x1                 0.28885     0.0037168      77.716    4.8939e-14
+
+
+Number of observations: 11, Error degrees of freedom: 9
+Root Mean Squared Error: 0.000156
+R-squared: 0.999,  Adjusted R-Squared 0.998
+F-statistic vs. constant model: 6.04e+03, p-value = 4.89e-14

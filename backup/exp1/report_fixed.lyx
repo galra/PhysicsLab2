@@ -1,0 +1,2756 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass heb-article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+מעבדה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-- תנועת אלקטרון בשדה מגנטי וחשמלי
+\end_layout
+
+\begin_layout Author
+דור קליינשטיין )
+\numeric on
+204881692
+\numeric off
+(, גל רעיוני )
+\numeric on
+305653487
+\numeric off
+(
+\end_layout
+
+\begin_layout Address
+
+\lang english
+galra@campus.technion.ac.il, dore@campus.technion.ac.il
+\end_layout
+
+\begin_layout Date
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+מטרת הניסוי
+\end_layout
+
+\begin_layout Standard
+אימות מודלים תיאורטיים אודות תנועת אלקטרון בשדה חשמלי והגורמים הרלוונטיים
+ לאיפיון תנועה זו, תנועת אלקטרון בשדה מגנטי והגורמים הרלוונטיים לתנועה זו,
+ והערכת היחס 
+\begin_inset Formula $\frac{m}{e}$
+\end_inset
+
+ עבור האלקטרון מתוך התוצאות.
+ 
+\end_layout
+
+\begin_layout Section*
+מבוא
+\end_layout
+
+\begin_layout Subsection*
+שדה חשמלי
+\end_layout
+
+\begin_layout Standard
+משוואת התנועה של אלקטרון בשדה חשמלי היא 
+\begin_inset Formula 
+\begin{eqnarray}
+\ddot{y} & = & \frac{eE}{m}\label{eq:elec_motion_elec}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והפתרון שלה הוא
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+y & = & \frac{eEt^{2}}{2m}\label{eq:elec_motion_elec_sol}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ההעתק האנכי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+a של האלקטרון בעת הגעתו לקצה הלוחות הוא: 
+\begin_inset Formula 
+\begin{eqnarray*}
+a & = & \frac{eEl^{2}}{2mv_{z}^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+ומכאן שהעתקו בעת פגיעתו במסך נתון ע"י:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+E & = & \frac{V_{d}}{d}\,\nonumber \\
+\frac{1}{2}mv_{z}^{2} & = & eV_{A}\label{eq:elec_speed}\\
+v_{y,f} & = & \frac{eEl^{2}}{mv_{z}^{2}}\nonumber \\
+D & = & a+\frac{L}{v_{z}}v_{y}=\frac{eEl(L+\frac{l}{2})}{mv_{z}^{2}}\nonumber \\
+D & = & \frac{1}{2}\frac{l\left(L+\frac{1}{2}l\right)}{d}\cdot\frac{V_{d}}{V_{A}}\label{eq:elec_D}\\
+D & = & \alpha\frac{V_{d}}{V_{A}}\label{eq:elec_D_prop}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר, ההסחה תלויה במאפיינים הגיאומטריים של המערכת, וביחס המתחים בלבד.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הנחות המודל
+\bar default
+: 
+\begin_inset Formula $d\ll l$
+\end_inset
+
+ -- על כן נוכל להתייחס לשדה החשמלי שבין הלוחות כאל שדה אחיד )כשל לוח אינסופי(,
+ ולהניח שהוא מתאפס מחוץ ללוחות.
+ כמו כן, אנו מניחים כי בשפופרת ואקום מושלם, ועל כן מסלול האלקטרונים לא מופרע
+ ע"י חלקיקי אוויר.
+\end_layout
+
+\begin_layout Subsection*
+שדה מגנטי
+\end_layout
+
+\begin_layout Subsubsection*
+תנועה ניצבת לשדה המגנטי
+\end_layout
+
+\begin_layout Standard
+עבור אלקטרון הנע במהירות 
+\begin_inset Formula $\vec{v}=v_{1}\hat{y}$
+\end_inset
+
+, מתקבלת משוואת התנועה הבאה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+x & = & -\frac{v_{1}}{\omega}(1-\cos\omega t)\label{eq:perp_magnetic_motion}\\
+y & = & \frac{v_{1}}{\omega}\sin\omega t\nonumber \\
+z & = & 0\nonumber \\
+\omega & = & \frac{eB}{m}\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכאן עבור 
+\begin_inset Formula $(x,y)=(a,b)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+a & = & -\frac{v_{1}}{\omega}+\sqrt{\left(\frac{v_{1}}{\omega}\right)^{2}-b^{2}}\approx-\frac{b^{2}\omega}{2v_{1}}\label{eq:mag1_dist_nonfinal}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בשילוב עם משוואה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:elec_speed}
+\end_layout
+
+\end_inset
+
+ )כאן 
+\begin_inset Formula $v_{z}=v_{y}$
+\end_inset
+
+( נקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+a & = & -\frac{1}{2}\sqrt{\frac{e}{m}}\cdot\frac{B}{\sqrt{2V_{A}}}\cdot b^{2}\label{eq:mag1_dist}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תוצאה זאת מאפשרת לנו להעריך את הגודל 
+\begin_inset Formula $\sqrt{\frac{e}{m}}$
+\end_inset
+
+ עבור האלקטרון, מתוך הגדלים הנמדדים.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הנחות המודל
+\bar default
+:
+\lang english
+
+\begin_inset Formula $b^{2}\ll\left(\frac{v_{1}}{\omega}\right)^{2}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ וכך אנו מצדיקים את הקירוב במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag1_dist_nonfinal}
+\end_layout
+
+\end_inset
+
+.
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ קבוע לאורך המסלול )הנחה זו אינה נכונה אלא בקירוב, שכן את 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אנו מחשבים/מודדים רק על ציר הסימטריה של הסליל(, ומתאפס מחוץ לסליל.
+\end_layout
+
+\begin_layout Subsubsection*
+תנועה במקביל לשדה המגנטי
+\end_layout
+
+\begin_layout Standard
+עבור אלקטרון שנכנס לשדה המגנטי במהירות 
+\begin_inset Formula $\vec{v}=v_{1}\hat{y}+v_{z}\hat{z}$
+\end_inset
+
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\begin{eqnarray*}
+x & = & -\frac{v_{1}}{\omega}(1-\cos\omega t)\\
+y & = & \frac{v_{1}}{\omega}\sin\omega t\\
+z & = & v_{z}t
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וקיבלנו תנועה הלית, כאשר ההיטל על מישור 
+\begin_inset Formula $x-y$
+\end_inset
+
+ הינו מעגל.
+ פיתוח קצר מביא לתוצאות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\frac{x}{y} & = & -\tan\phi\label{eq:mag2_xy_ratio}\\
+\phi & = & \sqrt{\frac{e}{m}}\cdot\frac{LB}{2\sqrt{2V_{A}}}=\alpha\cdot\frac{B}{\sqrt{V_{A}}}\label{eq:mag2_phi}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובמערכת קואורדינטות פולרית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+r & = & r_{0}\frac{\sin\phi}{\phi}\label{eq:mag2_polar}\\
+r_{0} & = & L\frac{v_{1}}{v_{z}}\label{eq:mag2_polar_r0}\\
+\phi & = & r_{0}\frac{\sin\phi}{\phi}\label{eq:mag2_polar_phi}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הנחות המודל
+\bar default
+:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ קבוע, ומתאפס מחוץ לסליל )בדומה למודל הקודם.
+ גם כאן ההנחה לא מדוייקת, וניתן לראות זאת אף בערכים הנמדדים(.
+\end_layout
+
+\begin_layout Standard
+חישוב שדה מגנטי על ציר הסימטריה של סליל חשמלי מתבצע ע"י 
+\begin_inset Formula 
+\begin{eqnarray}
+\frac{B(z)}{B_{0}} & = & \frac{F(h-z)+F(h+z)}{2(R'-R)}\label{eq:B_B0}\\
+F(x) & = & x\cdot\ln\frac{R'+\sqrt{R'^{2}+x^{2}}}{R+\sqrt{R{}^{2}+x^{2}}}\nonumber \\
+B_{0} & = & \mu_{0}ni\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+כללי
+\end_layout
+
+\begin_layout Standard
+חישובי שגיאה נעשו כלהלן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+df(x_{1,}x_{2},x_{3,}...,x_{n}) & = & \sqrt{\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_{i}}\cdot\delta x_{i}\right)^{2}}\label{eq:calc_delta}
+\end{eqnarray}
+
+\end_inset
+
+השוואה בין גדלים 
+\begin_inset Formula $a,b$
+\end_inset
+
+ נעשתה כלהלן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\eta & = & \frac{\left|a-b\right|}{\sqrt{\delta a^{2}+\delta b^{2}}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+מהלך הניסוי
+\end_layout
+
+\begin_layout Subsection*
+שדה חשמלי
+\end_layout
+
+\begin_layout Standard
+המערכת הורכבה משני חלקים עיקריים: קתודה שמחוממת בעזרת מוליך חשמלי, ופולטת
+ אלקטרונים במהירות הפרופ' למתח שבו הוחזק המוליך; וזוג לוחות קבל עם מטען
+ חשמלי היוצר שדה מגנטי וגורם לסטייה של האלקטרון.
+ המודל שלנו ניבא תלות בין ההסחה למבנה הגיאומטרי של המערכת וביחס של מתח ההסחה
+ לבין מתח ההאצה.
+ כדי לבדוק האם באמת ההסחה תלויה רק ביחס של המתחים ולא באחד מהם, עשינו 2
+ ניסוים.
+ בראשון מתח ההסטה היה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+5
+\numeric off
+.987[V]
+\lang hebrew
+, ושינינו את מתח ההאצה ובניסוי השני מתח ההאצה היה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+2151[V]
+\lang hebrew
+, ושינינו את מתח ההסחה ומדדנו את גודל ההסטה בכל ניסוי.
+\end_layout
+
+\begin_layout Subsection*
+שדה מגנטי
+\end_layout
+
+\begin_layout Standard
+בחלק זה הוספנו סלילים משני צידי המערכת הקודמת שתיארנו, וסליל אחד לאורך ה--
+\lang english
+tube
+\lang hebrew
+.
+ על מנת ליצור שדה מגנטי בתוכה.
+ לאחר מכן בדקנו את ההסחה כשהאלטרון יוצא בניצב לשדה המגנטי )כאשר בשני הסלילים
+ הצידיים עובר זרם( ומדדנו ההסחה עבור מתח ראשון בגודל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+1083
+\numeric off
+[V]
+\lang hebrew
+ ומתח שני של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+1616[V]
+\lang hebrew
+.
+ בחלקו השני של הניסוי בדקנו את ההסחה מציר איקס והסחה מציר ווי כשהאלטרון
+ לא נכנס לשדה המגנטי ניצב אליה, אלא בזוית כלשני.
+ תנועה כזאת היא תנועה הלית ומדדנו אותה על ידי כך שהשארנו מתח קבוע של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+1616[V]
+\lang hebrew
+ ושינינו את הזרם.
+\end_layout
+
+\begin_layout Section*
+תוצאות
+\end_layout
+
+\begin_layout Subsection*
+תנועת אלקטרונים בשדה חשמלי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename elec_graph.png
+	scale 45
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תלות הסטת האלקטרון ביחס בין מתח ההסטה למתח ההאצה
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:elec_ref"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור החלק של הניסוי עם 
+\begin_inset Formula $V_{\text{A}}$
+\end_inset
+
+ קבוע קיבלנו את הנתונים הבאים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+R Square
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.996 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Coefficients 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Standard Error 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intercept 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.0022 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.0004 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+X Variable 1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+3.6 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.1 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ועבור החלק של הניסוי שבו 
+\begin_inset Formula $V_{d}$
+\end_inset
+
+ קבוע קיבלנו את הנתונים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+R Square
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.9997 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Coefficients 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Standard Error 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intercept 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-0.000117954 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+6.10274E-05 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+X Variable 1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+4.165548112 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.020098494 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהשוואה בין שני ערכי 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ המתקבלים, אני מקבלים 
+\begin_inset Formula $\eta=4.88>3$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אינה תלויה במתח ההאצה 
+\begin_inset Formula $V_{A}$
+\end_inset
+
+, כי כפי שניתן להבחין בגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:elec_ref}
+\end_layout
+
+\end_inset
+
+ יש יחס לינארי הן בניסוי שבו 
+\begin_inset Formula $V_{A}$
+\end_inset
+
+ הינו קבוע והן בניסוי שבו 
+\begin_inset Formula $V_{d}$
+\end_inset
+
+ קבוע, ובשניהם מתקבל שיפוע גרף זהה.
+ מכך נסיק ששיפוע הגרף אינו תלוי לא באף אחד משני הפרמטרים: 
+\begin_inset Formula $V_{A},\,V_{d}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בעזרת הצבה בנוסחת חישוב שגיאה נגררת: 
+\begin_inset Formula $\delta\alpha=\sqrt{\left(\frac{\partial\alpha}{\partial l}\cdot\delta l\right)^{2}+\left(\frac{\partial\alpha}{\partial L}\cdot\delta L\right)^{2}+\left(\frac{\partial\alpha}{\partial d}\cdot\delta d\right)^{2}}$
+\end_inset
+
+, קיבלנו כי הערך התאורטי של α הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+2.92
+\lang hebrew
+ והשגיאה שלו היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.11
+\numeric off
+.
+ מהשוואת ערך α זה לאלו שקיבלנו מהגרף מקבלים את האטות הבאות -- עבור הניסוי
+ עם 
+\begin_inset Formula $V_{a}$
+\end_inset
+
+ קבוע קיבלנו 
+\begin_inset Formula $\eta=16.05$
+\end_inset
+
+ ועבור הניסוי עם 
+\begin_inset Formula $V_{d}$
+\end_inset
+
+ קבוע קיבלנו 
+\begin_inset Formula $\eta=8.46$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+תנועת אלקטרונים בשדה מגנטי
+\end_layout
+
+\begin_layout Subsubsection*
+חלק ראשון
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename magnetic1.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+היחס הנמדד בין ההסחה 
+\begin_inset Formula $a$
+\end_inset
+
+ לבין 
+\begin_inset Formula $\frac{i}{\sqrt{V_{A}}}$
+\end_inset
+
+בניסוי המגנטי הראשון.
+ הפרמטרים 
+\begin_inset Formula $k_{i},b_{i}$
+\end_inset
+
+ מוצגים בטבלאות שלהלן
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mag1_res"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $V_{A}=1083V$
+\end_inset
+
+ קיבלנו:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+R Square
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.998 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Coefficients 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Standard Error 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intercept 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-5e-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+5e-05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+X Variable 1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.284
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.004
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:mag1_res1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ועבור 
+\begin_inset Formula $V_{A}=1616V$
+\end_inset
+
+ קיבלנו:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+R Square
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Coefficients 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Standard Error 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intercept 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+-4e-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+5e-05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+X Variable 1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.289
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+0.003
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:mag1_res2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהשוואה בין שני השיפועים המתקבלים, מתקבל 
+\begin_inset Formula 
+\begin{eqnarray}
+\eta & = & 0.8232\label{eq:mag1_etta}
+\end{eqnarray}
+
+\end_inset
+
+, דהיינו תוצאות הניסוי במתחים שונים קוהרנטיות אחת עם השנייה.
+\end_layout
+
+\begin_layout Standard
+מהערכת הגדלים 
+\begin_inset Formula $\frac{B}{B_{0}}=0.1$
+\end_inset
+
+ )ע"פ מדידה( ו--
+\begin_inset Formula $b=2R$
+\end_inset
+
+ )גודל נתון(, והצבה במשוואה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag1_dist}
+\end_layout
+
+\end_inset
+
+, מתקבלת ההערכה הבאה ל--
+\lang english
+
+\begin_inset Formula $\frac{e}{m}=4.3\times10^{10}\pm0.7\times10^{10}\frac{C}{kg}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ מהשוואה עם הערך התיאורטי הידוע )בהנחת שגיאה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בערך התיאורטי(: 
+\begin_inset Formula 
+\begin{eqnarray}
+\eta & = & 19.03\label{eq:mag1_etta_final}
+\end{eqnarray}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+חלק שני
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Book2_files/image001.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאות המדידה בניסוי המגנטי השני
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mag2_res_raw"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Book2_files/image003.png
+	scale 65
+
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\begin_inset space \negthickspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+היחס הנמדד בין ההסחה 
+\begin_inset Formula $\phi$
+\end_inset
+
+ לבין 
+\begin_inset Formula $\frac{i}{\sqrt{V_{A}}}$
+\end_inset
+
+בניסוי המגנטי השני, יחד עם הצפי התיאורי מנוסחה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag2_polar_phi}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mag2_res_phi"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לחישוב 
+\begin_inset Formula $\phi$
+\end_inset
+
+ התיאורטי בגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:mag2_res_phi}
+\end_layout
+
+\end_inset
+
+, להערכת 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ בנוסחה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag2_polar_phi}
+\end_layout
+
+\end_inset
+
+ נעשה שימוש באחד הערכים המדודים של 
+\begin_inset Formula $\phi$
+\end_inset
+
+ והצבה שלו בנוסחה הנ"ל.
+\end_layout
+
+\begin_layout Standard
+להערכת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\lang hebrew
+, הואיל והוא משתנה לאורך התנועה על ציר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+z
+\lang hebrew
+, חושב הערך הממוצע לאורך מסלול החלקיק ע"י הערכת האינטגרל לגרף 
+\begin_inset Formula $\frac{B(z)}{B_{0}}$
+\end_inset
+
+.
+ מכיוון שהאלקטרון נע באופן סימטרי, בקירוב, ביחס לצמרכז הסליל )מ--
+\begin_inset Formula $-z$
+\end_inset
+
+ עד 
+\begin_inset Formula $z$
+\end_inset
+
+(, ולא מאיץ לאורך המסלול, ממוצע שכזה צפוי להתאים לצרכנו )כלומר, אין צורך
+ בממוצע משוקלל, כפי שנדרש במקרה של 
+\begin_inset Formula $V_{z}$
+\end_inset
+
+ המשתנה לאורך התנועה בשדה המגנטי(.
+ את השגיאה חישבנו ע"י הערכת השגיאה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:B_B0}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:calc_delta}
+\end_layout
+
+\end_inset
+
+, תוך התייחסות למשתנים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+h,R,R'
+\lang hebrew
+.
+ השגיאה ב--
+\begin_inset Formula $\sqrt{\frac{e}{m}}$
+\end_inset
+
+ חושבה ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag2_phi}
+\end_layout
+
+\end_inset
+
+ ו--
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:calc_delta}
+\end_layout
+
+\end_inset
+
+ ע"י בידוד 
+\begin_inset Formula $\sqrt{\frac{e}{m}}$
+\end_inset
+
+ והתייחסות למשתנים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $B,L,V_{A}$
+\end_inset
+
+.
+ מהשוואה לערך הידוע של 
+\begin_inset Formula $\frac{e}{m}$
+\end_inset
+
+ מתקבל: 
+\begin_inset Formula 
+\begin{eqnarray}
+\eta & = & 3.52\label{eq:mag2_etta_final}
+\end{eqnarray}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+מסקנות
+\end_layout
+
+\begin_layout Subsection*
+שדה חשמלי
+\end_layout
+
+\begin_layout Standard
+בסדרת הניסויים של תנועת האלקטרון בשדה חשמלי קיבלנו אטות מאוד גדולות )
+\begin_inset Formula $>3$
+\end_inset
+
+( ולכן אנו מסיקים שהשגיאות שלנו הינן שגיאות שיטתיות ולא אקראיות.
+ נוסף על כך השגיאות בניסוי זה היו בכמה סדרי גודל קטנים מהערכים עצמם ולכן
+ הנתונים שקיבלנו הם קרובים מאוד לערך האמיתי.
+ אנו מאמינים כי האטות הגדולות נובעות מכך שהמודל הפשוט לא מתאים לרמת הדיוק
+ של המכשירים, כלומר בניסוי שלנו רמת דיוק המכשירים הייתה גבוהה יותר מרמת
+ הדיוק של הקירוב הפשוט, ושהזנחנו חלקים שלא היינו צריכים )פירוט להלן(, ולכן
+ קיבלנו את ההבדלים הגדולים בין הגדלים התאורטיים לבין מה שקיבלנו בפועל.
+ נשים לב שיש קרבה יותר גדולה בין 2 הערכים שקיבלנו בפועל מאשר הקרבה של כל
+ אחד מהם לערך התאורטי, דבר שמחזק את טענתנו.
+\end_layout
+
+\begin_layout Standard
+הקירובים שעשינו במודל הפשוט הם שהתנועה של האלקטרון היא פרבולית תחת שדה קבוע,
+ ונעשית לינארית מיד עם היציאה מהלוחות, אז השדה החשמלי מתאפס.
+ היות שהתאמה לינארית מתקבלת ברמת דיוק טובה )ּ
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ קרוב מאוד ל--
+\numeric on
+1
+\numeric off
+(, אנו מעריכים כי המודל הלינארי אכן תואם את התיאוריה, אך הקבוע שונה מעט
+ מזה שהתקבל מההזנחות שביצענו במודל המפושט.
+\end_layout
+
+\begin_layout Subsection*
+שדה מגנטי
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות משתי המדידות, אנו מקבלים תלות לינארית בין ההסחה ל--
+\begin_inset Formula $\frac{i}{\sqrt{V_{A}}}$
+\end_inset
+
+ והדבר עולה בקנה אחד עם המודל.
+ ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag1_etta}
+\end_layout
+
+\end_inset
+
+ ניתן לראות שאטא קטנה מאוד )ובפרט קטנה מ 3( ולכן ניתן לראות כי 
+\begin_inset Formula $K_{1}$
+\end_inset
+
+ אינו תלוי במתח ההאצה.
+ אחרת היינו מקבלים ערכים שונים של 
+\begin_inset Formula $K_{1}$
+\end_inset
+
+ היות שמתח ההאצה שונה בין המדידות.
+\end_layout
+
+\begin_layout Standard
+הערכנו את
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+b
+\lang hebrew
+ להיות 
+\begin_inset Formula $2R$
+\end_inset
+
+ כיוון שמיקמנו את הסלילים קרוב למסך ועל כן זהו המרחק שהאלקטרון עובר בשדה
+ המגנטי, עד לפגיעה, בקירוב.
+ מהשוואה מתקבל ערך שונה מהצפי הידוע בספרות )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag1_etta_final}
+\end_layout
+
+\end_inset
+
+(.
+ בניסוי השני על אף הערכות וקירובים גסים יותר, לכאורה )דוגמת מיצוע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+B
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לאורך המסלול(, התקבל ערך התואם את הערך הספרותי הרבה יותר )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag2_etta_final}
+\end_layout
+
+\end_inset
+
+(.
+ אנו מעריכים כי התוצאות הנ"ל נובעות משתי סיבות: בניסוי הראשון )ובניסוי הראשון
+ בלבד( ביצענו הערכה ל--
+\lang english
+b
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ע"י הנחה שהאלקטרון נע בשדה המגנטי רק בסוף מסלולו, ועד סופו.
+ סיבה שנייה, היא שייתכן שהקירוב לשדה מגנטי קבוע היא בעייתית יותר במקרה של
+ תנועה ניצבת לשדה.
+ בפרט כאשר בתנועה המקבילה לשדה, הוערך שדה אחיד ע"פ הערך הממוצע שפועל על
+ האלקטרון לאורך מסלולו, ובאופן סימטרי לאורך מסלולו )עובר ממרחק 
+\begin_inset Formula $z_{0}$
+\end_inset
+
+ לפני מרכז הסליל, עד מרחק 
+\begin_inset Formula $z_{0}$
+\end_inset
+
+ לאחר הסליל(.
+\end_layout
+
+\begin_layout Standard
+בגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:mag2_res_phi}
+\end_layout
+
+\end_inset
+
+ ניתן להבחין כי התוצאה התיאורטית הצפויה ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:mag2_polar_phi}
+\end_layout
+
+\end_inset
+
+ תואמת את תוצאות המדידה בחצי הראשון של המדידות, בערך עד 
+\begin_inset Formula $\frac{\pi}{2}$
+\end_inset
+
+.
+ לא מצאנו הסבר מספק לתופעה זו.
+\end_layout
+
+\end_body
+\end_document

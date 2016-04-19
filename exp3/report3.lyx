@@ -128,9 +128,11 @@ galra@campus.technion.ac.il, dore@campus.technion.ac.il
 \end_layout
 
 \begin_layout Standard
-לראות שהשנאי משנה מתח וזרם.
- לראות את הקשר ביחס המתחים על הקצוות השונים של השנאי כתלות ביחס מספר הכריכות
- ולראות שניתן לחבר שנאי כשנאי עצמי.
+מטרת הניסוי הייתה לראות שהשנאי משנה מתח וזרם ושגורם לזווית הזזה.
+ בנוסף לראות את הקשר ביחס המתחים על הקצוות השונים של השנאי כתלות ביחס מספר
+ הכריכות ואיך עומס משפיע על המערכת.
+ מדדנו מתחים וזרמים בחלקים שונים של המערכות, וגזרנו את הספק המעגלים ואת
+ נצילותם.
 \end_layout
 
 \begin_layout Section*
@@ -930,6 +932,275 @@ R_{E}=R_{i}\label{eq:maxPower}
 
 \begin_layout Section*
 תוצאות
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי ללא עומס
+\end_layout
+
+\begin_layout Standard
+נרצה לראות את היחס בין המתח על השנאי המשני כפונקציה של המתח הראשי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/VsVp.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{S}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $V_{P}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+*הסבר* +
+\lang english
+R^2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת, נרצה לראות את היחס שבין 
+\begin_inset Formula $\frac{V_{S}}{V_{P}}$
+\end_inset
+
+ כפונקציה של 
+\begin_inset Formula $\frac{N_{S}}{N_{P}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/VsVp_NsNp.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{V_{S}}{V_{P}}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $\frac{N_{S}}{N_{P}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+*הסבר* +
+\lang english
+R^2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי עם עומס
+\end_layout
+
+\begin_layout Standard
+נרצה לראות את היחס בין הזרם על השנאי המשני כפונקציה של הזרם הראשי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/Is_Ip.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\begin_inset Formula $I_{s}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כתלות ב 
+\begin_inset Formula $I_{p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+*הסבר* +
+\lang english
+R^2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי כממיר אימפדנסים
+\end_layout
+
+\begin_layout Standard
+נרצה לראות את היחס בין ההספק על הנגד המשתנה, כפונקציה של הנגד המשתנה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/P_Rl.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{s}^{2}\cdot R_{L}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $R_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כמצופה, ניתן לראות שככל שמתקרבים לערך מסוים )בהמשך נראה שהוא שווה ל 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+( אז ההספק עולה, וככל שמתרחקים ממנו הוא יורד
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*

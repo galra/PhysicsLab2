@@ -336,7 +336,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-תיאור המערכת של שנאי כממיר אימפדנסים
+תיאור המערכת של ש
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ReDiag"
+
+\end_inset
+
+נאי כממיר אימפדנסים
 \end_layout
 
 \end_inset
@@ -939,14 +946,14 @@ R_{E}=R_{i}\label{eq:maxPower}
 \end_layout
 
 \begin_layout Standard
-נרצה לראות את היחס בין המתח על השנאי המשני כפונקציה של המתח הראשי.
+נרצה לראות את היחס בין המתח על השנאי המשני כפונקציה של המתח הראשי:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1003,7 +1010,7 @@ R^2
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1049,7 +1056,7 @@ R^2
 \end_layout
 
 \begin_layout Standard
-נרצה לראות את היחס בין הזרם על השנאי המשני כפונקציה של הזרם הראשי.
+נרצה לראות את היחס בין הזרם על השנאי המשני כפונקציה של הזרם הראשי:
 \end_layout
 
 \begin_layout Standard
@@ -1153,7 +1160,7 @@ R^2
 \end_layout
 
 \begin_layout Standard
-נרצה לראות את היחס בין ההספק על הנגד המשתנה, כפונקציה של הנגד המשתנה.
+נרצה לראות את היחס בין ההספק על הנגד המשתנה, כפונקציה של הנגד המשתנה:
 \end_layout
 
 \begin_layout Standard
@@ -1183,6 +1190,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PvsRL"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1205,6 +1219,163 @@ status open
 
 \begin_layout Section*
 דיון בתוצאות והשוואה לתאוריה
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי ללא עומס
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3-4
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי עם עומס
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+7-10
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי כממיר אימפדנסים
+\end_layout
+
+\begin_layout Standard
+ההתנגדות השקולה 
+\begin_inset Formula $R_{E}$
+\end_inset
+
+ כפי שניתן לראות באיור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:ReDiag}
+\end_layout
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמתאימה להספק המקסימלי הינה שיעור ה 
+\begin_inset Formula $X$
+\end_inset
+
+ של הנקודה במקסימאלית ביותר באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:PvsRL}
+\end_layout
+
+\end_inset
+
+, ולפי חישוב הנקודה, קיבלנו כי 
+\begin_inset Formula $R_{L}=2.38\left[\Omega\right]$
+\end_inset
+
+, ולפי משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Re}
+\end_layout
+
+\end_inset
+
+ ועבור 
+\begin_inset Formula $a=0.6$
+\end_inset
+
+ נקבל כי 
+\begin_inset Formula $R_{E}=0.86\left[\Omega\right]$
+\end_inset
+
+.
+ ולפי משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:maxPower}
+\end_layout
+
+\end_inset
+
+ נקבל כי התנגדות המחולל תהיה שווה ל 
+\begin_inset Formula $R_{E}$
+\end_inset
+
+, השווה ל 
+\begin_inset Formula $0.86\left[\Omega\right]$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section*

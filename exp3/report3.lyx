@@ -1236,9 +1236,69 @@ name "fig:PvsRL"
 \end_layout
 
 \begin_layout Standard
-
+בניסוי שלנו, מספר הכריכות שווה )בשניהם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
 \numeric on
-7-10
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+140
+\numeric off
+(, כלומר 
+\begin_inset Formula $a=1$
+\end_inset
+
+, ולכן לפי משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Is*}
+\end_layout
+
+\end_inset
+
+ נקבל כי 
+\begin_inset Formula $I_{s}^{*}=I_{s}=0.18\left[A\right]$
+\end_inset
+
+ לפי המדידות שלנו, עבור 
+\begin_inset Formula $V=2\left[V\right]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+*
+\numeric on
+8*
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1380,6 +1440,10 @@ ref{eq:maxPower}
 
 \begin_layout Section*
 מסקנות
+\end_layout
+
+\begin_layout Standard
+מעבדה זה לא כיף
 \end_layout
 
 \end_body

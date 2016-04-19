@@ -935,30 +935,22 @@ R_{E}=R_{i}\label{eq:maxPower}
 \end_layout
 
 \begin_layout Subsubsection*
-מדידות בשנאי ללא עומס
+שנאי ללא עומס
 \end_layout
 
 \begin_layout Standard
 נרצה לראות את היחס בין המתח על השנאי המשני כפונקציה של המתח הראשי.
 \end_layout
 
-\begin_layout Subsubsection*
-מדידות בשנאי עם עומס
-\end_layout
-
-\begin_layout Standard
-נרצה לראות את היחס בין הזרם על השנאי המשני כפונקציה של הזרם הראשי.
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename exp3_files/image005.png
+	filename exp3_files/VsVp.png
 
 \end_inset
 
@@ -969,7 +961,117 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-זרם של
+\begin_inset Formula $V_{S}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $V_{P}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+*הסבר* +
+\lang english
+R^2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת, נרצה לראות את היחס שבין 
+\begin_inset Formula $\frac{V_{S}}{V_{P}}$
+\end_inset
+
+ כפונקציה של 
+\begin_inset Formula $\frac{N_{S}}{N_{P}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/VsVp_NsNp.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{V_{S}}{V_{P}}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $\frac{N_{S}}{N_{P}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+*הסבר* +
+\lang english
+R^2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי עם עומס
+\end_layout
+
+\begin_layout Standard
+נרצה לראות את היחס בין הזרם על השנאי המשני כפונקציה של הזרם הראשי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/Is_Ip.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
 \family roman
 \series medium
 \shape up
@@ -1036,7 +1138,64 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-*הסבר*
+*הסבר* +
+\lang english
+R^2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי כממיר אימפדנסים
+\end_layout
+
+\begin_layout Standard
+נרצה לראות את היחס בין ההספק על הנגד המשתנה, כפונקציה של הנגד המשתנה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp3_files/P_Rl.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{s}^{2}\cdot R_{L}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $R_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כמצופה, ניתן לראות שככל שמתקרבים לערך מסוים )בהמשך נראה שהוא שווה ל 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+( אז ההספק עולה, וככל שמתרחקים ממנו הוא יורד
 \end_layout
 
 \end_inset

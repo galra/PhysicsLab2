@@ -1160,7 +1160,7 @@ R^2
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1205,6 +1205,36 @@ status open
 
 \begin_layout Section*
 דיון בתוצאות והשוואה לתאוריה
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי ללא עומס
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3-4
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי עם עומס
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+7-10
+\end_layout
+
+\begin_layout Subsubsection*
+שנאי כממיר אימפדנסים
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+14-15
 \end_layout
 
 \begin_layout Section*

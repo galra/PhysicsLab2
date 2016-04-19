@@ -666,7 +666,11 @@ Z=(R_{P}+iX_{p})+(a^{2}R_{S}+ia^{2}X_{S})=R+iX
 
 \begin_layout Standard
 ולכן ההספק של המעגל הינו: 
-\begin_inset Formula $P=V_{P}\cdot I_{P}\cdot\cos\varphi$
+\begin_inset Formula 
+\begin{equation}
+P=V_{P}\cdot I_{P}\cdot\cos\varphi
+\end{equation}
+
 \end_inset
 
 
@@ -674,9 +678,9 @@ Z=(R_{P}+iX_{p})+(a^{2}R_{S}+ia^{2}X_{S})=R+iX
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 \left|Z\right|=\frac{V_{P}}{I_{P}}
-\]
+\end{equation}
 
 \end_inset
 
@@ -685,9 +689,9 @@ Z=(R_{P}+iX_{p})+(a^{2}R_{S}+ia^{2}X_{S})=R+iX
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 R=\frac{P}{I_{P}^{2}}
-\]
+\end{equation}
 
 \end_inset
 
@@ -696,9 +700,9 @@ R=\frac{P}{I_{P}^{2}}
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 X=\sqrt{Z^{2}-R^{2}}
-\]
+\end{equation}
 
 \end_inset
 
@@ -1295,10 +1299,6 @@ ref{eq:Is*}
 *
 \numeric on
 8*
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Subsubsection*

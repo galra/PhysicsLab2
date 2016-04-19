@@ -217,7 +217,7 @@ V_{p}=-N_{p}\frac{d\phi}{dt}
 \begin_layout Subsubsection*
 \begin_inset Formula 
 \begin{equation}
-\frac{V_{s}}{V_{p}}=\frac{N_{s}}{N_{p}}
+\frac{V_{s}}{V_{p}}=\frac{N_{s}}{N_{p}}\label{eq:Vs/Vp}
 \end{equation}
 
 \end_inset
@@ -281,7 +281,7 @@ status open
  ולפי הגדרת הספק ושימור אנרגיה נקבל 
 \begin_inset Formula 
 \begin{equation}
-V_{p}\cdot I_{p}=\frac{(V_{s})^{2}}{R_{L}}
+V_{p}\cdot I_{p}=\frac{(V_{s})^{2}}{R_{L}}\label{eq:VpIp}
 \end{equation}
 
 \end_inset
@@ -362,7 +362,7 @@ R_{E}\equiv\frac{V_{p}}{I_{P}}=\left(\frac{\frac{N_{P}}{N_{S}}\cdot V_{S}}{\frac
 ולכן נקבל כי 
 \begin_inset Formula 
 \begin{equation}
-R_{E}=a^{2}\cdot R_{L}
+R_{E}=a^{2}\cdot R_{L}\label{eq:Re}
 \end{equation}
 
 \end_inset
@@ -401,6 +401,13 @@ status open
 
 \begin_layout Plain Layout
 מערכת ניסוי של שנאי אמיתי ללא עומס
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sys_without_r"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -417,19 +424,8 @@ status open
 לפי הציור מקבלים ש - 
 \begin_inset Formula 
 \begin{equation}
-I_{c}=I_{0}\cos\left(\varphi\right)
+I_{c}=I_{0}\cos\left(\varphi\right)\label{eq:Ic}
 \end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-I_{m}=I_{0}\sin\left(\varphi\right)
-\]
 
 \end_inset
 
@@ -439,7 +435,18 @@ I_{m}=I_{0}\sin\left(\varphi\right)
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-I_{0}=\sqrt{I_{c}^{2}+I_{m}^{2}}
+I_{m}=I_{0}\sin\left(\varphi\right)\label{eq:Im}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I_{0}=\sqrt{I_{c}^{2}+I_{m}^{2}}\label{eq:I0}
 \end{equation}
 
 \end_inset
@@ -449,7 +456,7 @@ I_{0}=\sqrt{I_{c}^{2}+I_{m}^{2}}
 \begin_inset Formula $P=V_{P}\cdot I_{c}$
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -528,7 +535,7 @@ status open
  
 \begin_inset Formula 
 \begin{equation}
-I_{s}^{*}=a^{2}\cdot I_{s}
+I_{s}^{*}=a^{2}\cdot I_{s}\label{eq:Is*}
 \end{equation}
 
 \end_inset

@@ -102,7 +102,7 @@
 \color inherit
 3
 \numeric off
- -- התלות בין המתח של שנאי 
+ -- חקירת מאפייני השנאי
 \end_layout
 
 \begin_layout Author
@@ -124,11 +124,7 @@ galra@campus.technion.ac.il, dore@campus.technion.ac.il
 \end_layout
 
 \begin_layout Section*
-מטרת הניסוי ]צריך לשנות לפי התוצאות החדשות[
-\end_layout
-
-\begin_layout Section
-עוד כותרת טיפשית
+מטרת הניסוי
 \end_layout
 
 \begin_layout Standard
@@ -139,6 +135,30 @@ galra@campus.technion.ac.il, dore@campus.technion.ac.il
 
 \begin_layout Section*
 מבוא
+\end_layout
+
+\begin_layout Standard
+נסתמך בדוח זה על החוק האהוב עלינו בעולם בחשמל, חוק אוהם - 
+\begin_inset Formula 
+\begin{equation}
+V=I\cdot R\label{eq:Ohm}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף לכך, ההספק לפי הספרות המדעית )יחד עם חוק אוהם( הינו
+\begin_inset Formula 
+\begin{equation}
+P=V\cdot I=\frac{V^{2}}{R}=I^{2}\cdot R\label{eq:Power}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -270,11 +290,11 @@ status open
 \begin_inset Formula $V_{s}\cdot I_{s}=V_{p}\cdot I_{p}$
 \end_inset
 
-מה שגורר 
+ מה שגורר 
 \begin_inset Formula 
-\[
-\frac{I_{s}}{I_{p}}=\frac{N_{p}}{N_{s}}
-\]
+\begin{equation}
+\frac{I_{s}}{I_{p}}=\frac{N_{p}}{N_{s}}\label{eq:Is/Ip}
+\end{equation}
 
 \end_inset
 
@@ -453,7 +473,11 @@ I_{0}=\sqrt{I_{c}^{2}+I_{m}^{2}}\label{eq:I0}
 
  ואיבוד האנרגיה שנגרם כתוצאה מזה שהשנאי אינו אידיאלי ניתן לחישוב על ידי
  הנוסחה 
-\begin_inset Formula $P=V_{P}\cdot I_{c}$
+\begin_inset Formula 
+\begin{equation}
+P=V_{P}\cdot I_{c}\label{eq:P}
+\end{equation}
+
 \end_inset
 
  
@@ -544,7 +568,348 @@ I_{s}^{*}=a^{2}\cdot I_{s}\label{eq:Is*}
 \end_layout
 
 \begin_layout Subsubsection*
-מהלך הניסוי שלנו - 
+מעגל תמורה של השנאי האמיתי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename picsReport3/pic8.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור מערכת של תמורה בשנאי אמיתי
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי חוק אוהם וחיבור נגדים בטור ובמקביל, נובע כי בניסוי ללא עומס )
+\begin_inset Formula $R_{E}\rightarrow\infty$
+\end_inset
+
+( נקבל כי 
+\begin_inset Formula $I_{p}\rightarrow0$
+\end_inset
+
+ וכי 
+\begin_inset Formula $X_{p},R_{p}\ll R_{C},X_{M}$
+\end_inset
+
+ ולכן
+\begin_inset Formula 
+\begin{equation}
+R_{C}=\frac{V_{p}}{I_{c}}\label{eq:Rc}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+X_{M}=\frac{V_{p}}{I_{m}}\label{eq:Xm}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ובהתאם, בניסוי שמקצרים את השנאי המשני, כלומר 
+\begin_inset Formula $R_{E}=0$
+\end_inset
+
+, הזרם במעגל גדול 
+\begin_inset Formula $I_{P}=I_{S}\gg I_{0}$
+\end_inset
+
+ ומכאן נובע שהעכבה הכוללת של השנאי היא
+\begin_inset Formula 
+\[
+Z=(R_{P}+iX_{p})+(a^{2}R_{S}+ia^{2}X_{S})=R+iX
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן ההספק של המעגל הינו: 
+\begin_inset Formula $P=V_{P}\cdot I_{P}\cdot\cos\varphi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|Z\right|=\frac{V_{P}}{I_{P}}
+\]
+
+\end_inset
+
+ומכאן נקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R=\frac{P}{I_{P}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X=\sqrt{Z^{2}-R^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואם הסלילים שלנו בניסוי זהים, אז: 
+\begin_inset Formula $R_{P}=R_{S}$
+\end_inset
+
+, וכן 
+\begin_inset Formula $X_{P}=X_{S}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+חישוב התנגדות מקסימאלית עבור חיבור
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נגדים בטור
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename picsReport3/pic9.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור מערכת של שני נגדים בטור עם מחולל
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נרצה למצוא מה היא ההתנגדות שצריך שיהיה ל 
+\begin_inset Formula $R_{E}$
+\end_inset
+
+ על מנת שההספק שלו 
+\begin_inset Formula $P_{E}$
+\end_inset
+
+ יהיה מקסימאלי.
+ לפי חוק אוהם נקבל - 
+\begin_inset Formula $V=I\cdot R_{i}+I\cdot R_{E}$
+\end_inset
+
+.
+ ולפי משואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Power}
+\end_layout
+
+\end_inset
+
+ נקבל כי 
+\begin_inset Formula $P_{E}=I^{2}\cdot R_{E}$
+\end_inset
+
+ ולכן נקבל 
+\begin_inset Formula $P_{E}=\frac{V^{2}}{\left(R_{i}+R_{E}\right)^{2}}\cdot R_{E}$
+\end_inset
+
+ בשביל למצוא את ההספק המקסימאלי, נגזור לפי 
+\begin_inset Formula $R_{E}$
+\end_inset
+
+ ונשווה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ 
+\begin_inset Formula $\frac{d}{dR_{E}}P_{E}=0$
+\end_inset
+
+ ולאחר גזירה, השוואה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+, וכמובן בדיקת נקודת מינימום/מקסימום נקבל כי הדבר מתקיים עבור
+\begin_inset Formula 
+\begin{equation}
+R_{E}=R_{i}\label{eq:maxPower}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מהלך הניסוי 
 \end_layout
 
 \begin_layout Standard
@@ -556,6 +921,11 @@ I_{s}^{*}=a^{2}\cdot I_{s}\label{eq:Is*}
  באותו חלק גם הפרש המופע שהיה בין שני הזרמים, ואת ההפרש מופע שהיה בין המתח
  לזרם הראשי.
  לבסוף מדדנו את הזרמים בשני הסלילים עם מתח קבוע, אך שיננו את התנגדות העומס.
+\end_layout
+
+\begin_layout Standard
+בניסוי השתמשנו במולטימטרים רבים, וכן בסקופ הדיגיטלי לשם מדידת המתחים/הזרמים
+ במעגל, וחישוב זוית ההסחה בהתאמה.
 \end_layout
 
 \begin_layout Section*

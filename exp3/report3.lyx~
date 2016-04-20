@@ -1028,6 +1028,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:VsVp"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1209,6 +1216,13 @@ status open
 
  כתלות ב 
 \begin_inset Formula $\frac{N_{S}}{N_{P}}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Vs/Vp"
+
 \end_inset
 
 
@@ -1471,6 +1485,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IsVsIp"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1723,10 +1744,19 @@ name "fig:PvsRL"
 
 \begin_layout Standard
 עבור שיפוע הגרף 
-\begin_inset Formula $V_{s}\,vs.\,V_{p}$
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:VsVp}
+\end_layout
+
 \end_inset
 
-אל מול צפי תיאורטי של שיפוע
+ אל מול צפי תיאורטי של שיפוע
 \family roman
 \series medium
 \shape up
@@ -1798,10 +1828,19 @@ ref{eq:Vs/Vp}
 
 \begin_layout Standard
 עבור שיפוע הגרף 
-\begin_inset Formula $\frac{V_{s}}{V_{p}}\,vs.\,\frac{N_{s}}{N_{p}}$
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:Vs/Vp}
+\end_layout
+
 \end_inset
 
-אל מול צפי תיאורטי של שיפוע
+ אל מול צפי תיאורטי של שיפוע
 \family roman
 \series medium
 \shape up
@@ -1876,7 +1915,7 @@ ref{eq:Vs/Vp}
 \begin_inset Formula $\eta$
 \end_inset
 
-הגדולים מתקבלים על אף קירבה לערכים התיאורטיים נובע משגיאה יחסית קטנה ביותר,
+ הגדולים מתקבלים על אף קירבה לערכים התיאורטיים נובע משגיאה יחסית קטנה ביותר,
  ככל הנראה קטנה משמעותית משגיאת המדידה השיטתית )אותה אין באפשרותנו לשקלל
  בלינאריזציה של התוצאות(, ובחוסר אינפורמציה לגבי מידת דיוקם של 
 \begin_inset Formula $N_{p},N_{s}$
@@ -1934,7 +1973,7 @@ ref{fig:IsVsIp}
 \color inherit
 1
 \numeric off
-, ולכן התלות הלינארית מאוד חזקה, הישר הוא אכן ישר טוב, ואני באמת מקבלים
+, ולכן התלות הלינארית מאוד חזקה, הישר הוא אכן ישר טוב, ואנו באמת מקבלים
  שהיחס או לינארי, כפי שמצפים מנסוחה 
 \begin_inset ERT
 status open
@@ -2245,6 +2284,78 @@ ref{eq:maxPower}
 
 \begin_layout Section*
 מסקנות
+\end_layout
+
+\begin_layout Standard
+ניתן לראות התאמה איכותית לתיאוריה )במקרים בהם היא מאפשרת לחזות ערך מדיד
+ ניסויִי(, בכך שמתקיים קשר לינארי בין גורמים שונים.
+ אמנם מתקבלות 
+\begin_inset Formula $\eta$
+\end_inset
+
+ות גדולות בהשוואת התוצאות לתיאוריה, אך אנו מעריכים את מקורן בלקות ביכולת
+ הערכת השגיאה השיטתית מהמדידה, ובחוסר אינפורמציה אודות שגיאה במספר הסלילים.
+\end_layout
+
+\begin_layout Standard
+בשלבי הניסוי האחרים, ניתן להיווכח בהבדל שבין שנאי אידאלי לשנאי מציאותי,
+ בו הנצילות >
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ בשל זרמי מערבולת פנימיים בשנאי וזליגת שטף מגנטי שגורמים להפסדים )זרמי מערבולת(.
+\end_layout
+
+\begin_layout Standard
+לבסוף, נוכחנו ביישום שתואם את הצפי התיאורטי, המאפשר למדוד את את התנגדותו
+ הפנימית של המחולל באמצעות חישוב הספק במעגל השנאי.
+ כניסוי השלמה, ניתן למדוד את ההתנגדות הפנימית בשיטה נוספת, ולהשוות בין התוצאות.
 \end_layout
 
 \begin_layout Standard

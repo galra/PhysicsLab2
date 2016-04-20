@@ -285,6 +285,317 @@ LC
 מבוא
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic1.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור מערכת הניסוי
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp_diag"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בניסוי שלנו, עבדנו עם שני מעגלים עם עכבות שונות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic3.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור המערכת של העכבות 
+\begin_inset Formula $Z$
+\end_inset
+
+ של
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RLC"
+
+\end_inset
+
+ איור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp_diag}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ניתן לראות שבמעגל הימני, החיבור הינו במקביל, ואילו בשמאלי הוא טורי.
+ הדבר ישפיע על העכבה ועל זוית ההסחה כפי שנראה בהמשך.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נרצה להראות את הביטוי ל 
+\begin_inset Formula $\tan\left(\varphi\right)$
+\end_inset
+
+, כאשר 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ הינה זוית ההסחה, כלומר הזוית שבין החלק הממשי לעכבה, כפי שמוצג כאן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic4.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+זוית ההסחה של העכבה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי ההגדרה של מספרים מרוכבים, נשתמש בכך שהזוית הנ"ל מוגדרת להיות על ידי
+ חילוק ערך ה 
+\begin_inset Formula $y$
+\end_inset
+
+ בערך ה 
+\begin_inset Formula $x$
+\end_inset
+
+, ובמקרה שלנו נקבל כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tan\left(\varphi\right)=\frac{X}{R}\label{eq:tanPhi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את הביטוי 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:tanPhi}
+\end_layout
+
+\end_inset
+
+ עבור המעגל 
+\begin_inset Formula $RC$
+\end_inset
+
+ במקביל ,המוצג באיור הימני של איור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:RLC}
+\end_layout
+
+\end_inset
+
+ ולכן: 
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{1}{Z}=\frac{1}{R}+\frac{1}{-iX_{C}} & \rightarrow & Z=\frac{-iRX_{C}}{-iX_{C}+R}\\
+\\
+Z=\frac{-iR^{2}X_{C}+RX_{C}^{2}}{const} & \rightarrow & \tan\left(\varphi\right)=-\frac{\frac{R^{2}X_{C}}{const}}{\frac{RX_{C}^{2}}{const}}=-\frac{R}{X_{C}}=-\omega RC
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר כפי שהגדרנו, 
+\begin_inset Formula $X_{C}=\frac{1}{\omega C}$
+\end_inset
+
+.
+ ולכן 
+\begin_inset Formula $\frac{1}{i\omega C}=-iX_{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בדומה, מוצאים את הביטוי ל 
+\begin_inset Formula $\tan\left(\varphi\right)$
+\end_inset
+
+ עבור המעגל 
+\begin_inset Formula $RL$
+\end_inset
+
+ הטורי, המוצג באיור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:RLC}
+\end_layout
+
+\end_inset
+
+ נקבל שהוא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega L}{R}\\
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר כפי שהגדרנו, 
+\begin_inset Formula $X_{L}=\omega L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ובסך הכל נקבל כי עבור מעגל 
+\begin_inset Formula $RC$
+\end_inset
+
+ במקביל נקבל -
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\left(\varphi\right)=-\omega RC
+\]
+
+\end_inset
+
+ועבור מעגל 
+\begin_inset Formula $RL$
+\end_inset
+
+ טורי נקבל -
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\left(\varphi\right)=\frac{\omega L}{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 תוצאות
 \end_layout

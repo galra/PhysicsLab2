@@ -601,12 +601,6 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 \end_layout
 
 \begin_layout Standard
->
-\series bold
-לעדכן שגיאות מהטבלה השנייה והלאה<
-\end_layout
-
-\begin_layout Standard
 להלן מוצגים הגרפים שהתקבלו מהערכת הביטויים ל--
 \begin_inset Formula $\tan\varphi$
 \end_inset
@@ -673,6 +667,13 @@ status open
 
  במערכת 
 \begin_inset Formula $Z=Z_{RC}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_tanphi"
+
 \end_inset
 
 
@@ -852,6 +853,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_z_square"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -927,7 +935,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
-0.770
+2.07E-10 
 \end_layout
 
 \end_inset
@@ -938,7 +946,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
--0.031
+2.22E-05 
 \end_layout
 
 \end_inset
@@ -963,7 +971,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+2E-12 
 \end_layout
 
 \end_inset
@@ -974,7 +982,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+9E-07
 \end_layout
 
 \end_inset
@@ -1057,6 +1065,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_tanphi"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1132,7 +1147,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
-0.770
+0.00020781 
 \end_layout
 
 \end_inset
@@ -1143,7 +1158,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
--0.031
+-0.02
 \end_layout
 
 \end_inset
@@ -1168,7 +1183,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+3E-06 
 \end_layout
 
 \end_inset
@@ -1179,7 +1194,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+0.02
 \end_layout
 
 \end_inset
@@ -1228,6 +1243,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_z_square"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1303,7 +1325,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
-0.770
+0.01209 
 \end_layout
 
 \end_inset
@@ -1314,7 +1336,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
--0.031
+264003 
 \end_layout
 
 \end_inset
@@ -1339,7 +1361,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+5E-05 
 \end_layout
 
 \end_inset
@@ -1350,7 +1372,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+2509
 \end_layout
 
 \end_inset

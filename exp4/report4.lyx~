@@ -285,6 +285,444 @@ LC
 מבוא
 \end_layout
 
+\begin_layout Standard
+בניסוי זה נעבוד עם המודל הבא של עכבות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic1.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור מערכת הניסוי
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp_diag"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בניסוי שלנו, עבדנו עם שני מעגלים עם עכבות שונות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic3.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור המערכת של העכבות 
+\begin_inset Formula $Z$
+\end_inset
+
+ של
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RLC"
+
+\end_inset
+
+ איור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp_diag}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+ניתן לראות שבמעגל הימני, החיבור הינו במקביל, ואילו בשמאלי הוא טורי.
+ הדבר ישפיע על העכבה ועל זוית ההסחה כפי שנראה בהמשך.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור כל אחת מהעכבות נגדיר 
+\begin_inset Formula $V_{x}=rI$
+\end_inset
+
+ ו 
+\begin_inset Formula $V_{y}=ZI$
+\end_inset
+
+, שזהו חישוב המתח של כל רכיב לפי הגדרת העכבה, ולכן אם נזרים זרם של 
+\begin_inset Formula $I=I_{0}\cos\left(\omega t\right)$
+\end_inset
+
+ נקבל כי:
+\begin_inset Formula 
+\begin{equation}
+V_{x}=rI_{0}\cos\left(\omega t\right)\label{eq:Vx}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+V_{y}=\left|Z\right|I_{0}\cos\left(\omega t+\varphi\right)\label{eq:Vy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות, שתי הפונקציות הן פונקציות 
+\begin_inset Formula $\cos$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אך עם משרעות שונות, ועם זוית הסחה שונות.
+ הדבר אומר כי אם נסתכל על הגרפים של תלות המתח בזמן של שני הרכיבים זה ליד
+ זה נראה שנקודות המקסימום הן שונות, וכי אחד מהגרפים מוזז, כלומר הם לא מתאפסים
+ ביחד ולא מקבלים מקסימום ביחד, כמו שניתן לראות באיור הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic5.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{x}$
+\end_inset
+
+,
+\begin_inset Formula $V_{y}$
+\end_inset
+
+כתלות בזמן
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כפי שניתן לראות, בנקודות 
+\begin_inset Formula $A,B$
+\end_inset
+
+ שתי הפונקציות מתאפסות, איך זה קורה בערכי זמן שונים, מה שמראה שיש את זוית
+ ההסחה 
+\begin_inset Formula $\varphi$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+נרצה להראות את הביטוי ל 
+\begin_inset Formula $\tan\left(\varphi\right)$
+\end_inset
+
+, כאשר 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ הינה זוית ההסחה, כלומר הזוית שבין החלק הממשי לעכבה, כפי שמוצג כאן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic4.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+זוית ההסחה של העכבה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי ההגדרה של מספרים מרוכבים, נשתמש בכך שהזוית הנ"ל מוגדרת להיות על ידי
+ חילוק ערך ה 
+\begin_inset Formula $y$
+\end_inset
+
+ בערך ה 
+\begin_inset Formula $x$
+\end_inset
+
+, ובמקרה שלנו נקבל כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tan\left(\varphi\right)=\frac{X}{R}\label{eq:tanPhi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את הביטוי 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:tanPhi}
+\end_layout
+
+\end_inset
+
+ עבור המעגל 
+\begin_inset Formula $RC$
+\end_inset
+
+ במקביל ,המוצג באיור הימני של איור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:RLC}
+\end_layout
+
+\end_inset
+
+ ולכן: 
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{1}{Z}=\frac{1}{R}+\frac{1}{-iX_{C}} & \rightarrow & Z=\frac{-iRX_{C}}{-iX_{C}+R}\\
+\\
+Z=\frac{-iR^{2}X_{C}+RX_{C}^{2}}{const} & \rightarrow & \tan\left(\varphi\right)=-\frac{\frac{R^{2}X_{C}}{const}}{\frac{RX_{C}^{2}}{const}}=-\frac{R}{X_{C}}=-\omega RC
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר כפי שהגדרנו, 
+\begin_inset Formula $X_{C}=\frac{1}{\omega C}$
+\end_inset
+
+.
+ ולכן 
+\begin_inset Formula $\frac{1}{i\omega C}=-iX_{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בדומה, מוצאים את הביטוי ל 
+\begin_inset Formula $\tan\left(\varphi\right)$
+\end_inset
+
+ עבור המעגל 
+\begin_inset Formula $RL$
+\end_inset
+
+ הטורי, המוצג באיור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:RLC}
+\end_layout
+
+\end_inset
+
+ נקבל שהוא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega L}{R}\\
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר כפי שהגדרנו, 
+\begin_inset Formula $X_{L}=\omega L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ובסך הכל נקבל כי עבור מעגל 
+\begin_inset Formula $RC$
+\end_inset
+
+ במקביל נקבל -
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\left(\varphi\right)=-\omega RC
+\]
+
+\end_inset
+
+ועבור מעגל 
+\begin_inset Formula $RL$
+\end_inset
+
+ טורי נקבל -
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\left(\varphi\right)=\frac{\omega L}{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 תוצאות
 \end_layout
@@ -356,6 +794,13 @@ status open
 
  במערכת 
 \begin_inset Formula $Z=Z_{RC}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_tanphi"
+
 \end_inset
 
 
@@ -535,6 +980,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rc_z_square"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -610,7 +1062,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
-0.770
+2.07E-10 
 \end_layout
 
 \end_inset
@@ -621,7 +1073,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
--0.031
+2.22E-05 
 \end_layout
 
 \end_inset
@@ -646,7 +1098,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+2E-12 
 \end_layout
 
 \end_inset
@@ -657,7 +1109,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+9E-07
 \end_layout
 
 \end_inset
@@ -740,6 +1192,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_tanphi"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -815,7 +1274,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
-0.770
+0.00020781 
 \end_layout
 
 \end_inset
@@ -826,7 +1285,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
--0.031
+-0.02
 \end_layout
 
 \end_inset
@@ -851,7 +1310,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+3E-06 
 \end_layout
 
 \end_inset
@@ -862,7 +1321,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+0.02
 \end_layout
 
 \end_inset
@@ -911,6 +1370,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rl_z_square"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -986,7 +1452,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
-0.770
+0.01209 
 \end_layout
 
 \end_inset
@@ -997,7 +1463,7 @@ Val
 \begin_layout Plain Layout
 
 \lang english
--0.031
+264003 
 \end_layout
 
 \end_inset
@@ -1022,7 +1488,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+5E-05 
 \end_layout
 
 \end_inset
@@ -1033,7 +1499,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-0.004
+2509
 \end_layout
 
 \end_inset

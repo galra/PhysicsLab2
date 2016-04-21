@@ -286,6 +286,10 @@ LC
 \end_layout
 
 \begin_layout Standard
+בניסוי זה נעבוד עם המודל הבא של עכבות:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -387,6 +391,251 @@ ref{fig:exp_diag}
 ניתן לראות שבמעגל הימני, החיבור הינו במקביל, ואילו בשמאלי הוא טורי.
  הדבר ישפיע על העכבה ועל זוית ההסחה כפי שנראה בהמשך.
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור כל אחת מהעכבות נגדיר 
+\begin_inset Formula $V_{x}=rI$
+\end_inset
+
+ ו 
+\begin_inset Formula $V_{y}=ZI$
+\end_inset
+
+, שזהו חישוב המתח של כל רכיב לפי הגדרת העכבה, ולכן אם נזרים זרם של 
+\begin_inset Formula $I=I_{0}\cos\left(\omega t\right)$
+\end_inset
+
+ נקבל כי:
+\begin_inset Formula 
+\begin{equation}
+V_{x}=rI_{0}\cos\left(\omega t\right)\label{eq:Vx}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+V_{y}=\left|Z\right|I_{0}\cos\left(\omega t+\varphi\right)\label{eq:Vy}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות, שתי הפונקציות הן פונקציות 
+\begin_inset Formula $\cos$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אך עם משרעות שונות, ועם זוית הסחה שונות.
+ הדבר אומר כי אם נסתכל על הגרפים של תלות המתח בזמן של שני הרכיבים זה ליד
+ זה נראה שנקודות המקסימום הן שונות, וכי אחד מהגרפים מוזז, כלומר הם לא מתאפסים
+ ביחד ולא מקבלים מקסימום ביחד, כמו שניתן לראות באיור הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic5.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{x}$
+\end_inset
+
+,
+\begin_inset Formula $V_{y}$
+\end_inset
+
+כתלות בזמן
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כפי שניתן לראות, בנקודות 
+\begin_inset Formula $A,B$
+\end_inset
+
+ שתי הפונקציות מתאפסות, איך זה קורה בערכי זמן שונים, מה שמראה שיש את זוית
+ ההסחה 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ )במקרה שלנו הפונקציה עם הנק' 
+\begin_inset Formula $B$
+\end_inset
+
+ היא של 
+\begin_inset Formula $V_{y}$
+\end_inset
+
+ והשניה של 
+\begin_inset Formula $V_{x}$
+\end_inset
+
+ כיוון ש 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ חיובי(.
+ ובנוסף ניתן לראות שגרף מקבל מקיסמום יותר גדול מהאחר, כלומר שהמשערת שונה.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:tanC
+\end_layout
+
+\end_inset
+
+ ו 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:tanL
+\end_layout
+
+\end_inset
+
+ ניתן לראות כי הן המשוואות הפרמטריות של אליפסה במישור 
+\begin_inset Formula $V_{x}-V_{y}$
+\end_inset
+
+ ולכן הצורה שקיבלנו באוסצילוסקופ היא אליפסה, ויש לה את התכונות שמוצגות באיור
+ הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename report4pics/pic2.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{x}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $V_{y}$
+\end_inset
+
+ ותיאור נקודות חשובות
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:elip"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומן הטבלה האיור ניתן לראות שעל ידי חלוקה ערכים של נוקדות שונות, נקבל ביטויים
+ לערכים שונים, כמו 
+\begin_inset Formula 
+\begin{equation}
+\left|Z\right|=r\frac{V_{y}(P_{2})}{V_{x}(P_{3})}=r\frac{V_{y}(P_{1})}{V_{x}(P_{4})}\label{eq:Zvalue}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sin\varphi=\frac{V_{y}(P_{1})}{V_{y}(P_{2})}=\frac{V_{x}(P_{4})}{V_{x}(P_{3})}\label{eq:sinValue}
+\end{equation}
 
 \end_inset
 
@@ -572,9 +821,9 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\tan\left(\varphi\right)=-\omega RC
-\]
+\begin{equation}
+\tan\left(\varphi\right)=-\omega RC\label{eq:tanC}
+\end{equation}
 
 \end_inset
 
@@ -587,9 +836,9 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\tan\left(\varphi\right)=\frac{\omega L}{R}
-\]
+\begin{equation}
+\tan\left(\varphi\right)=\frac{\omega L}{R}\label{eq:tanL}
+\end{equation}
 
 \end_inset
 
@@ -1387,6 +1636,14 @@ Err
 
 \begin_layout Section*
 דיון בתוצאות והשוואה לתאוריה
+\end_layout
+
+\begin_layout Standard
+>
+\series bold
+לדבר על איך לקחנו את הערכים של כל גרף )ממוצע(
+\series default
+<
 \end_layout
 
 \begin_layout Section*

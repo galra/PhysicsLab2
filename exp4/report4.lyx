@@ -178,7 +178,7 @@ RC
 \uwave default
 \noun default
 \color inherit
-בחיבור מקבילי, ומעגל
+בחיבור מקבילי ומעגל
 \family roman
 \series medium
 \shape up
@@ -254,10 +254,10 @@ LC
 \noun default
 \color inherit
 
-\begin_inset Formula $V_{supplier}vs.\ V_{Z}$
+\begin_inset Formula $V_{supplier\,}vs.\ V_{Z}$
 \end_inset
 
- , ושימוש בתלות התיאורטית שלהם בערכי 
+ )המתח על המעגל כנגד המתח מהספק(, ושימוש בתלות התיאורטית שלהם בערכי 
 \begin_inset Formula $\left|Z\right|,\varphi$
 \end_inset
 
@@ -286,7 +286,7 @@ LC
 \end_layout
 
 \begin_layout Standard
-בניסוי זה נעבוד עם המודל הבא של עכבות:
+בניסוי זה עבדנו עם המערכת הבאה:
 \end_layout
 
 \begin_layout Standard
@@ -333,7 +333,11 @@ name "fig:exp_diag"
 \end_layout
 
 \begin_layout Standard
-בניסוי שלנו, עבדנו עם שני מעגלים עם עכבות שונות:
+כאשר כמעגל העכבה )
+\begin_inset Formula $Z$
+\end_inset
+
+( עבדנו עם שני המעגלים הבאים:
 \end_layout
 
 \begin_layout Standard
@@ -359,7 +363,7 @@ status open
 \begin_inset Formula $Z$
 \end_inset
 
- של
+ של 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:RLC"
@@ -387,30 +391,31 @@ ref{fig:exp_diag}
 
 \end_layout
 
-\begin_layout Plain Layout
-ניתן לראות שבמעגל הימני, החיבור הינו במקביל, ואילו בשמאלי הוא טורי.
- הדבר ישפיע על העכבה ועל זוית ההסחה כפי שנראה בהמשך.
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+ניתן לראות שבמעגל הימני, החיבור הינו במקביל, ואילו בשמאלי הוא טורי.
+ הדבר ישפיע על העכבה ועל זוית ההסחה כפי שנראה בהמשך.
+\end_layout
+
+\begin_layout Standard
 עבור כל אחת מהעכבות נגדיר 
-\begin_inset Formula $V_{x}=rI$
+\begin_inset Formula $V_{x}=\Re(Z)I$
 \end_inset
 
  ו 
-\begin_inset Formula $V_{y}=ZI$
+\begin_inset Formula $V_{y}=\Im(Z)I$
 \end_inset
 
-, שזהו חישוב המתח של כל רכיב לפי הגדרת העכבה, ולכן אם נזרים זרם של 
+ )החלק הממשי והמדומה של העכבה(.
+ זהו חישוב המתח של כל רכיב לפי הגדרת העכבה, ולכן אם נזרים זרם של 
 \begin_inset Formula $I=I_{0}\cos\left(\omega t\right)$
 \end_inset
 
- נקבל כי:
+ מתקבל כי:
 \begin_inset Formula 
 \begin{equation}
 V_{x}=rI_{0}\cos\left(\omega t\right)\label{eq:Vx}
@@ -458,10 +463,11 @@ V_{y}=\left|Z\right|I_{0}\cos\left(\omega t+\varphi\right)\label{eq:Vy}
 \uwave default
 \noun default
 \color inherit
-אך עם משרעות שונות, ועם זוית הסחה שונות.
+אך עם משרעות שונות, ועם זוית הסחה שונה.
  הדבר אומר כי אם נסתכל על הגרפים של תלות המתח בזמן של שני הרכיבים זה ליד
- זה נראה שנקודות המקסימום הן שונות, וכי אחד מהגרפים מוזז, כלומר הם לא מתאפסים
- ביחד ולא מקבלים מקסימום ביחד, כמו שניתן לראות באיור הבא:
+ זה, נראה שנקודות המקסימום הן שונות, וכי אחד מהגרפים מוזז.
+ כלומר הם לא מתאפסים ביחד ולא מקבלים מקסימום ביחד, כמו שניתן לראות באיור
+ הבא:
 \end_layout
 
 \begin_layout Standard
@@ -498,17 +504,22 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-כפי שניתן לראות, בנקודות 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקודות 
 \begin_inset Formula $A,B$
 \end_inset
 
- שתי הפונקציות מתאפסות, איך זה קורה בערכי זמן שונים, מה שמראה שיש את זוית
- ההסחה 
+ שתי הפונקציות מתאפסות, אך הן אינן מתאפסות במקביל, משמע יש את זוית ההסחה
+ 
 \begin_inset Formula $\varphi$
 \end_inset
 
- )במקרה שלנו הפונקציה עם הנק' 
+ ביניהן )במקרה שלנו הפונקציה עם הנק' 
 \begin_inset Formula $B$
 \end_inset
 
@@ -525,12 +536,7 @@ status open
 \end_inset
 
  חיובי(.
- ובנוסף ניתן לראות שגרף מקבל מקיסמום יותר גדול מהאחר, כלומר שהמשערת שונה.
-\end_layout
-
-\end_inset
-
-
+ ובנוסף ניתן לראות שגרף אחד מקבל מקסימום גדול מהשני, כלומר המשרעות שונות.
 \end_layout
 
 \begin_layout Standard
@@ -542,12 +548,12 @@ status open
 
 
 \backslash
-ref{eq:tanC
+ref{eq:tanC}
 \end_layout
 
 \end_inset
 
- ו 
+ ו--
 \begin_inset ERT
 status open
 
@@ -555,7 +561,7 @@ status open
 
 
 \backslash
-ref{eq:tanL
+ref{eq:tanL}
 \end_layout
 
 \end_inset
@@ -564,8 +570,8 @@ ref{eq:tanL
 \begin_inset Formula $V_{x}-V_{y}$
 \end_inset
 
- ולכן הצורה שקיבלנו באוסצילוסקופ היא אליפסה, ויש לה את התכונות שמוצגות באיור
- הבא:
+ ולכן הצורה שתתקבל ממדידת מתח אחד כלתות בשני )לדוגמה, באוסצילוסקופ( היא
+ אליפסה, המקיימת את התכונות המוצגות באיור הבא:
 \end_layout
 
 \begin_layout Standard
@@ -619,8 +625,8 @@ name "fig:elip"
 \end_layout
 
 \begin_layout Standard
-ומן הטבלה האיור ניתן לראות שעל ידי חלוקה ערכים של נוקדות שונות, נקבל ביטויים
- לערכים שונים, כמו 
+מן הטבלה שבאיור ניתן לראות שמנת ערכים של נקודות שונות, מאפשרת לחשב מאפייני
+ מערכת שונים, דוגמת: 
 \begin_inset Formula 
 \begin{equation}
 \left|Z\right|=r\frac{V_{y}(P_{2})}{V_{x}(P_{3})}=r\frac{V_{y}(P_{1})}{V_{x}(P_{4})}\label{eq:Zvalue}
@@ -643,7 +649,7 @@ name "fig:elip"
 \end_layout
 
 \begin_layout Standard
-נרצה להראות את הביטוי ל 
+נרצה להראות את הביטוי ל--
 \begin_inset Formula $\tan\left(\varphi\right)$
 \end_inset
 
@@ -687,16 +693,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-לפי ההגדרה של מספרים מרוכבים, נשתמש בכך שהזוית הנ"ל מוגדרת להיות על ידי
- חילוק ערך ה 
-\begin_inset Formula $y$
+הואיל ו--
+\begin_inset Formula $\Re(Z)=R$
 \end_inset
 
- בערך ה 
-\begin_inset Formula $x$
-\end_inset
-
-, ובמקרה שלנו נקבל כי:
+ מתקיים:
 \end_layout
 
 \begin_layout Standard
@@ -728,7 +729,7 @@ ref{eq:tanPhi}
 \begin_inset Formula $RC$
 \end_inset
 
- במקביל ,המוצג באיור הימני של איור 
+ במקביל, המוצג בצד הימני של איור 
 \begin_inset ERT
 status open
 
@@ -741,13 +742,12 @@ ref{fig:RLC}
 
 \end_inset
 
- ולכן: 
+: 
 \begin_inset Formula 
-\begin{eqnarray*}
-\frac{1}{Z}=\frac{1}{R}+\frac{1}{-iX_{C}} & \rightarrow & Z=\frac{-iRX_{C}}{-iX_{C}+R}\\
-\\
-Z=\frac{-iR^{2}X_{C}+RX_{C}^{2}}{const} & \rightarrow & \tan\left(\varphi\right)=-\frac{\frac{R^{2}X_{C}}{const}}{\frac{RX_{C}^{2}}{const}}=-\frac{R}{X_{C}}=-\omega RC
-\end{eqnarray*}
+\begin{eqnarray}
+\frac{1}{Z}=\frac{1}{R}+\frac{1}{-iX_{C}} & \rightarrow & Z=\frac{-iRX_{C}}{-iX_{C}+R}\nonumber \\
+Z=\frac{-iR^{2}X_{C}+RX_{C}^{2}}{X_{c}^{2}+R^{2}} & \rightarrow & \tan\left(\varphi\right)=-\frac{\frac{R^{2}X_{C}}{const}}{\frac{RX_{C}^{2}}{const}}=-\frac{R}{X_{C}}=-\omega RC\label{eq:z_rc}
+\end{eqnarray}
 
 \end_inset
 
@@ -755,12 +755,12 @@ Z=\frac{-iR^{2}X_{C}+RX_{C}^{2}}{const} & \rightarrow & \tan\left(\varphi\right)
 \end_layout
 
 \begin_layout Standard
-כאשר כפי שהגדרנו, 
+כאשר, 
 \begin_inset Formula $X_{C}=\frac{1}{\omega C}$
 \end_inset
 
 .
- ולכן 
+ לכן 
 \begin_inset Formula $\frac{1}{i\omega C}=-iX_{C}$
 \end_inset
 
@@ -789,14 +789,15 @@ ref{fig:RLC}
 
 \end_inset
 
- נקבל שהוא:
+.
+ מתקבל:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega L}{R}\\
-\end{eqnarray*}
+\begin{eqnarray}
+Z=R+iX_{L}=R+i\omega L & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega L}{R}\label{eq:z_rl}
+\end{eqnarray}
 
 \end_inset
 
@@ -804,7 +805,7 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 \end_layout
 
 \begin_layout Standard
-כאשר כפי שהגדרנו, 
+כאשר 
 \begin_inset Formula $X_{L}=\omega L$
 \end_inset
 
@@ -812,11 +813,11 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 \end_layout
 
 \begin_layout Standard
-ובסך הכל נקבל כי עבור מעגל 
+ובסך הכל מתקבל כי עבור מעגל 
 \begin_inset Formula $RC$
 \end_inset
 
- במקביל נקבל -
+ במקביל מתקיים:
 \end_layout
 
 \begin_layout Standard
@@ -831,7 +832,7 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 \begin_inset Formula $RL$
 \end_inset
 
- טורי נקבל -
+ טורי מתקיים:
 \end_layout
 
 \begin_layout Standard
@@ -839,6 +840,272 @@ Z=R+iX_{L} & \rightarrow & tan\left(\varphi\right)=\frac{X_{L}}{R}=\frac{\omega 
 \begin{equation}
 \tan\left(\varphi\right)=\frac{\omega L}{R}\label{eq:tanL}
 \end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:z_rc}
+\end_layout
+
+\end_inset
+
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\left|Z\right|^{2} & = & \frac{1}{\left(X_{C}^{2}+R^{2}\right)^{2}}\left(R^{4}X_{C}^{2}+R^{2}X_{C}^{4}\right)=\frac{R^{2}X_{c}^{2}}{X_{C}^{2}+R^{2}}\nonumber \\
+\frac{1}{\left|Z^{2}\right|} & = & \frac{1}{R^{2}}+\frac{1}{X_{C}^{2}}=\frac{1}{R^{2}}+\left(\omega C\right)^{2}\label{eq:z^2_rc}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וממשואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:z_rl}
+\end_layout
+
+\end_inset
+
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\left|Z\right|^{2} & = & R^{2}+\left(\omega L\right)^{2}\label{eq:z^2_rl}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+את המדידות בניסוי ביצענו באמצעות אוסצילוסקופ, וגשש דיפרנציאלי.
+ ת מדידת ערוץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Y
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)תרשים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp_diag}
+\end_layout
+
+\end_inset
+
+( לא ניתן להאריק ישירות מבלי לקצר את המעגל, ועל כן נדרש גשש דיפרנציאלי.
+ למדידת ערכי התנגדות, קיבול והשראה, נעשה שימור במולטימטר.
+\end_layout
+
+\begin_layout Standard
+המדידות בוצעו במעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בתדרים גבוהים מתדר החסימה, ובמעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בתדרים נמוכים מתדר החסימה, על מנת למנוע את עיוות התוצאות בשל סינון האותות
+ במעגלים אלו.
+\end_layout
+
+\begin_layout Standard
+חישובי שגיאות נעשו ע"פ שגיאת התוצאה מהתאמה לינארית )עבור שגיאה סטטיסטית(,
+ וע"פ הנוסחה הבאה עבור שגיאה נגררת:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\delta Y(X_{1},X_{2},X_{3},...,X_{n})=\sqrt{\sum_{i=1}^{n}\left(\frac{\partial Y}{\partial X_{i}}\delta X_{i}\right)^{2}}\label{eq:err_calc}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השוואה בין גדלים נעשית בשיטת 
+\begin_inset Formula $\eta$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\eta & = & \frac{\left|X_{1}-X_{2}\right|}{\sqrt{\delta X_{1}^{2}+\delta X_{2}^{2}}}
+\end{eqnarray*}
 
 \end_inset
 
@@ -874,7 +1141,20 @@ status open
 
 
 \backslash
-ref{eq:}
+ref{eq:tanC}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:z^2_rc}
 \end_layout
 
 \end_inset
@@ -943,6 +1223,12 @@ name "fig:rc_tanphi"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="3">
 <features rotate="0" tabularvalignment="middle">
@@ -1042,7 +1328,7 @@ Err
 \begin_layout Plain Layout
 
 \lang english
-7E-05 
+7E-04 
 \end_layout
 
 \end_inset
@@ -1060,6 +1346,43 @@ Err
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאות התאמה לינארית לגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_tanphi}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:rc_tanphi"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -1122,6 +1445,12 @@ name "fig:rc_z_square"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="3">
 <features rotate="0" tabularvalignment="middle">
@@ -1244,6 +1573,43 @@ Err
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאות התאמה לינארית לגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rc_z_square}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:rc_z_square"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 להלן מוצגים הגרפים שהתקבלו מהערכת הביטויים ל--
 \begin_inset Formula $\tan\varphi$
@@ -1269,12 +1635,24 @@ status open
 
 
 \backslash
-ref{eq:}
+ref{eq:tanC}
 \end_layout
 
 \end_inset
 
-.
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:z^2_rl}
+\end_layout
+
+\end_inset
+
  לאחר כל גרף מוצגת טבלה עם תוצאות התאמה לינארית לגרף.
 \end_layout
 
@@ -1334,6 +1712,12 @@ name "fig:rl_tanphi"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="3">
 <features rotate="0" tabularvalignment="middle">
@@ -1456,6 +1840,43 @@ Err
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאות התאמה לינארית לגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rl_tanphi}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:rl_tanphi"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 גרף היחס בין גודל העכבה לתדירות:
 \end_layout
@@ -1512,6 +1933,12 @@ name "fig:rl_z_square"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="3">
 <features rotate="0" tabularvalignment="middle">
@@ -1634,6 +2061,60 @@ Err
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאות התאמה לינארית לגרף 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:rl_z_square}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:rl_z_square"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מדידה ישירה של הסליל, הקבל והנגד סיפקה את התוצאות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+L_{meas} & = & 9.0\times10^{-3}\pm4\times10^{-4}[mH]\label{eq:L_real_val}\\
+C_{meas} & = & 2.00\times10^{-6}\pm2\times10^{-8}[mF]\label{eq:C_real_val}\\
+R_{meas} & = & 220\pm0.5[\Omega]\label{eq:R-real_val}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 דיון בתוצאות והשוואה לתאוריה
 \end_layout
@@ -1646,8 +2127,571 @@ Err
 <
 \end_layout
 
+\begin_layout Standard
+בדיון שלהלן נתייחס לערך המקדם הנידון בכל נקודה )
+\lang english
+Coeff
+\lang hebrew
+( כ--
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:tanC}
+\end_layout
+
+\end_inset
+
+ והנתונים בטבלה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{tab:rc_tanphi}
+\end_layout
+
+\end_inset
+
+ מקבלים, תוך שימוש במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:err_calc}
+\end_layout
+
+\end_inset
+
+ לחישוב השגיאה, בהתייחסות לשגיאה הסטטיסטית 
+\begin_inset Formula $\delta a_{c,z}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{tan}=\frac{a_{c,tan}}{2\pi R}=2.34\times10^{-6}\pm5\times10^{-7}\label{eq:C_tan}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:z^2_rc}
+\end_layout
+
+\end_inset
+
+ וטבלה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{tab:rc_z_square}
+\end_layout
+
+\end_inset
+
+ מקבלים, תוך שימוש במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:err_calc}
+\end_layout
+
+\end_inset
+
+ לחישוב השגיאה, בהתייחסות לשגיאה הסטטיסטית 
+\begin_inset Formula $\delta a_{c,z}$
+\end_inset
+
+ ול--
+\begin_inset Formula $\delta R$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{z}=\frac{\sqrt{a_{c,z}}}{2\pi}=2.3\times10^{-6}\pm2.5\times10^{-7}\label{eq:C_z}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:tanL}
+\end_layout
+
+\end_inset
+
+ והנתונים בטבלה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{tab:rl_tanphi}
+\end_layout
+
+\end_inset
+
+ מקבלים, תוך שימוש במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:err_calc}
+\end_layout
+
+\end_inset
+
+ לחישוב השגיאה, בהתייחסות לשגיאה הסטטיסטית 
+\begin_inset Formula $\delta a_{c,z}$
+\end_inset
+
+ ול--
+\begin_inset Formula $\delta R$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L_{tan}=\frac{R\cdot a_{L,tan}}{2\pi}=7.3\times10^{-3}\pm1\times10^{-4}\label{eq:L_tan}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:z^2_rl}
+\end_layout
+
+\end_inset
+
+ וטבלה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{tab:rl_z_square}
+\end_layout
+
+\end_inset
+
+ מקבלים, בהתייחסות לשגיאה הסטטיסטית 
+\begin_inset Formula $\delta a_{c,z}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L_{z}=\frac{\sqrt{a_{L,z}}}{2\pi}=1.7\times10^{-2}\pm1\times10^{-3}\label{eq:L_z}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהשוואה בין 
+\begin_inset Formula $C_{tan}$
+\end_inset
+
+, 
+\begin_inset Formula $C_{z}$
+\end_inset
+
+ ו--
+\begin_inset Formula $C_{meas}$
+\end_inset
+
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\eta_{C,z,tan} & = & 0.16\\
+\eta_{C,z,meas} & = & 1.20\\
+\eta_{C,tan,meas} & = & 0.68
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהשוואה בין 
+\begin_inset Formula $L_{tan}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{z}$
+\end_inset
+
+ ו--
+\begin_inset Formula $L_{meas}$
+\end_inset
+
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\eta_{L,z,tan} & = & 9.05\\
+\eta_{L,z,meas} & = & 7.43\\
+\eta_{L,tan,meas} & = & 2.67
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דומה כי ישנה הבדל של פקטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ בתוצאת החישוב של 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\begin_inset Formula $L_{z}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ביחס לערכו כפי שמתקבל ממדידה ישירה, ומחישוב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $L_{tan}$
+\end_inset
+
+.
+ אולם, פרט לכך, התוצאות הולמות יפה את התיאוריה, ומתקבלים ערכי 
+\begin_inset Formula $\eta$
+\end_inset
+
+ קטנים מ--
+\numeric on
+3
+\numeric off
+.
+ חלקם אף קטנים מאוד מ--
+\numeric on
+3
+\numeric off
+, מה שמעלה שאלה לגבי דיוק המדידה וגודל השגיאה המתקבל.
+ אכן, עבור ערכי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+C
+\lang hebrew
+, מתקבלת שגיאה של קרוב ל--
+\begin_inset Formula $20\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+השגיאה המשמעותית בחישובים שלעיל היא השגיאה הסטטיסטית מההתאמה הלינארית לגרפים.
+ אולם גם היא, בתורה, נגזרת מפיזור הנקודות 
+\begin_inset Formula $P_{1}-P_{4}$
+\end_inset
+
+ )איור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:elip}
+\end_layout
+
+\end_inset
+
+(.
+ נוכל לשפר את דיוק המדידה, ובכך, ככל, הנראה, להקטין את השגיאה הסטטיסטית
+ שנוצרת, ע"י שמירת נתוני קריאת האוסצילוסקופ למחשב, וניתוח נק' החיתוך בקוד,
+ שכן הרזולוציה האפשרית בהערכתן הידנית על צג הסקופ מספקת רמת דיוק נמוכה מרמת
+ דיוק המדידה של הסקופ.
+ בנוסף, ניתן להקטין את השפעת הפלקטואציות בקריאת הערכים של הסקופ ע"י שמירת
+ נתונים ממס' מדידות לכל תדירות, חישוב נק' 
+\begin_inset Formula $P_{1}-P_{2}$
+\end_inset
+
+ לכל סט נתונים, ולקיחת הממוצע המדידות של כל נקודה כערך הנקודה.
+\end_layout
+
 \begin_layout Section*
 מסקנות
+\end_layout
+
+\begin_layout Standard
+התוצאות המתקבלות הולמות יפה את התיאוריה, אולם יש צורך לחזור על המדידות ברמת
+ דיוק גבוהה יותר, כמוצע בסעיף הקודם, על מנת לשערך התאמה זו באופן מהימן יותר,
+ שלא בהסתמך על שגיאה של כ--
+\lang english
+20%
+\lang hebrew
+.
+ עם זאת, התוצאות הנוכחיות מאששות את המודל התיאורטי באשר לעכבת המעגלים, ע"י
+ התאמת גדלים הנגזרים ממנה לגדלים שנמדדו.
+\end_layout
+
+\begin_layout Standard
+הערך היחיד שאינו תואם את התיאוריה, ואינו קונסיסנטי אף עם אותו ערך תיאורטי,
+ כאשר הוא נגזר ממשוואה אחרת, הוא 
+\begin_inset Formula $L_{z}$
+\end_inset
+
+.
+ נראה כי התקבל ערך גדול פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מהערך האמיתי, וזה שחושב כ--
+\begin_inset Formula $L_{tan}$
+\end_inset
+
+, אך לא עלה בידנו לאתר את מקור הטעות הנ"ל.
 \end_layout
 
 \end_body

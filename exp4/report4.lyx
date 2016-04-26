@@ -905,7 +905,7 @@ ref{eq:z_rl}
 
 \begin_layout Standard
 את המדידות בניסוי ביצענו באמצעות אוסצילוסקופ, וגשש דיפרנציאלי.
- ת מדידת ערוץ
+ את מדידת ערוץ
 \family roman
 \series medium
 \shape up
@@ -1103,9 +1103,9 @@ RC
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-\eta & = & \frac{\left|X_{1}-X_{2}\right|}{\sqrt{\delta X_{1}^{2}+\delta X_{2}^{2}}}
-\end{eqnarray*}
+\begin{eqnarray}
+\eta & = & \frac{\left|X_{1}-X_{2}\right|}{\sqrt{\delta X_{1}^{2}+\delta X_{2}^{2}}}\label{eq:eta_test}
+\end{eqnarray}
 
 \end_inset
 
@@ -2105,7 +2105,7 @@ name "tab:rl_z_square"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray}
-L_{meas} & = & 9.0\times10^{-3}\pm4\times10^{-4}[mH]\label{eq:L_real_val}\\
+L_{meas} & = & 9.0\times10^{-3}\pm4\times10^{-4}[mH]\label{eq:L_real_val}\\
 C_{meas} & = & 2.00\times10^{-6}\pm2\times10^{-8}[mF]\label{eq:C_real_val}\\
 R_{meas} & = & 220\pm0.5[\Omega]\label{eq:R-real_val}
 \end{eqnarray}

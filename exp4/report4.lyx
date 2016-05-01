@@ -102,7 +102,95 @@
 \color inherit
 4
 \numeric off
- -- עכבה ובולשיט אחר
+ -- מדידת עכבה של מעגל
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקבילי ומעגל
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ טורי
 \end_layout
 
 \begin_layout Author
@@ -496,7 +584,7 @@ status open
 \begin_inset Formula $V_{y}$
 \end_inset
 
-כתלות בזמן
+ כתלות בזמן
 \end_layout
 
 \end_inset
@@ -2120,14 +2208,6 @@ R_{meas} & = & 220\pm0.5[\Omega]\label{eq:R-real_val}
 \end_layout
 
 \begin_layout Standard
->
-\series bold
-לדבר על איך לקחנו את הערכים של כל גרף )ממוצע(
-\series default
-<
-\end_layout
-
-\begin_layout Standard
 בדיון שלהלן נתייחס לערך המקדם הנידון בכל נקודה )
 \lang english
 Coeff
@@ -2616,6 +2696,119 @@ ref{fig:elip}
 
 \begin_layout Section*
 מסקנות
+\end_layout
+
+\begin_layout Standard
+בניסוי זה רצינו למדוד את העכבה )גודל ופאזה( של מכלול
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\lang hebrew
+ מקבלי ומכלול
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\lang hebrew
+ טורי.
+ ראינו כי בעזרת מדידת העכבה יכולנו לחשב את הקיבול של הקבל )במכלול
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RC
+\lang hebrew
+( ואת ההשראות של הסליל )במכלול
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RL
+\lang hebrew
+(.
 \end_layout
 
 \begin_layout Standard

@@ -126,6 +126,346 @@ galra@campus.technion.ac.il, dore@campus.technion.ac.il
 מבוא
 \end_layout
 
+\begin_layout Standard
+במהלך הניסוי, המעגל העיקרי שהשתמשנו בו היה מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RLC
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כמתואר באיור הבא - 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp5pics/part1.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תיאור מעכרת הניסוי
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:part1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות בנינו את המערכת כך שכל הרכיבים מחוברים בטור.
+ וחיברנו את המתח שנופל על הנגד לכניסה אחת של האוסילוסקופ, ואת המתח שהמחולל
+ מוציא לכניסה השניה של האוסילוסקופ.
+ נסמן ב 
+\begin_inset Formula $V_{R}$
+\end_inset
+
+ את המתח הנפול על הנגד, וב 
+\begin_inset Formula $V_{G}$
+\end_inset
+
+ את המתח הנכנס מהמחולל.
+\end_layout
+
+\begin_layout Standard
+במעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RLC
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+טורי, אם נניח כי 
+\begin_inset Formula $\frac{R^{2}}{4L^{2}}\ll\frac{1}{LC}$
+\end_inset
+
+, נקבל כי תדירות התהודה תהיה במקרה זה:
+\begin_inset Formula 
+\begin{equation}
+f_{0}=\frac{1}{2\pi\sqrt{LC}}\label{eq:f0}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עוד גודל שמאפיין מערכת עם תהודה הינו מקדם האיכות )
+\lang english
+Quality Factor
+\lang hebrew
+( המוגדר להיות כ:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=2\pi\frac{E}{P}
+\]
+
+\end_inset
+
+כאשר 
+\begin_inset Formula $E$
+\end_inset
+
+ היא האנרגיה האצורה במערכת, ו 
+\begin_inset Formula $P$
+\end_inset
+
+ האנרגיה המתבזבז בזמן מחזור אחד בתדירות התהודה.
+ ואם נציב ערכים אלו ונעשה חישובים מתמטיים נקבל כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=\frac{\omega_{0}L}{R_{T}}
+\]
+
+\end_inset
+
+כאשר 
+\begin_inset Formula $\omega_{0}=2\pi f_{0}$
+\end_inset
+
+, ו 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+ היא ההתנגדות הכללית של המערכת.
+ לפי ההנחה שלנו, ש 
+\begin_inset Formula $\frac{R^{2}}{4L^{2}}\ll\frac{1}{LC}$
+\end_inset
+
+, אזי נקבל כי 
+\begin_inset Formula $\omega_{0}=\frac{1}{\sqrt{LC}}$
+\end_inset
+
+, ולכן:
+\begin_inset Formula 
+\begin{equation}
+Q=\frac{\omega_{0}L}{R_{T}}=\frac{1}{\omega_{0}C}R_{T}=\frac{1}{R_{T}}\sqrt{\frac{L}{C}}\label{eq:Qfactor}
+\end{equation}
+
+\end_inset
+
+ אנו רוצים לראות את היחס שבין 
+\begin_inset Formula $V_{R}$
+\end_inset
+
+ לבין 
+\begin_inset Formula $V_{G}$
+\end_inset
+
+, ולשם כך נצטרך למצוא את העכבה הכוללת.
+ כיוון שזהו מעגל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RLC
+\lang hebrew
+, נקבל כי הערך המוחלט של העכבה עבור תדירות 
+\begin_inset Formula $\omega$
+\end_inset
+
+ הוא:
+\begin_inset Formula 
+\[
+\left|Z\right|=\sqrt{R_{T}^{2}+\left(\omega L-\frac{1}{\omega C}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ניתן לראות שעבור התדירות 
+\begin_inset Formula $f_{0}$
+\end_inset
+
+ )כפי שמוגדרת במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:f0}
+\end_layout
+
+\end_inset
+
+( נקבל את העכבה המינימאלית, שהיא תהיה שווה פשוט ל 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+ וזה קורה כיוון שבתדירות הזו נקבל כי הסליל והקבל "מבטלים" זה את זה, ונקבל
+ קצר בקטע הזה, ולכן ההתנגדות השקולה תהיה רק 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן, בעזרת שיקולים מתמטיים, נקבל כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{I_{0}}{V_{G}^{0}}=\frac{1}{\left|Z\right|}=\frac{1}{R_{T}}\left[\sqrt{1+Q^{2}\left[\left(\frac{f_{0}}{f}\right)-\left(\frac{f}{f_{0}}\right)\right]^{2}}\right]^{-1}\label{eq:I0/VG}
+\end{equation}
+
+\end_inset
+
+כאשר 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ הוא הזרם שזורם במעגל, ו 
+\begin_inset Formula $V_{G}^{0}$
+\end_inset
+
+ הוא המשרעת של המחולל.
+ 
+\end_layout
+
 \begin_layout Section*
 תוצאות
 \end_layout

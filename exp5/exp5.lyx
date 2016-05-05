@@ -24,6 +24,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -98,6 +99,16 @@
 5
 \lang hebrew
  -- 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+כותרת
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Author
@@ -202,7 +213,7 @@ status open
 תיאור מעכרת הניסוי
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:part1"
+name "fig:RLC"
 
 \end_inset
 
@@ -361,7 +372,182 @@ Q=\frac{\omega_{0}L}{R_{T}}=\frac{1}{\omega_{0}C}R_{T}=\frac{1}{R_{T}}\sqrt{\fra
 
 \end_inset
 
- אנו רוצים לראות את היחס שבין 
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+בעקרון צריך גם להוכיח כי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Q=f0/delta f0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אבל אין לי ככ שמץ איך להוכיח את זה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לצורך חישוב 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+, נראה על האוסילוסקופ כציר 
+\begin_inset Formula $X$
+\end_inset
+
+ את 
+\begin_inset Formula $V_{G}$
+\end_inset
+
+ ועל ציר 
+\begin_inset Formula $Y$
+\end_inset
+
+ את 
+\begin_inset Formula $V_{R}$
+\end_inset
+
+ בתדירות 
+\begin_inset Formula $f=f_{0}$
+\end_inset
+
+ נקבל עקומה שהיא קו ישר, דבר שנובע מניסויים קודמים שעשינו עם עקומת ליסז'ו
+ עבור תדירות התהודה.
+ כמו כן משוואת אותו הגרף היא במקרה הנ"ל 
+\begin_inset Formula $y=\frac{R}{R_{T}}x$
+\end_inset
+
+, ולכן אם נחשב את שיפוע הגרף )על ידי לקיחת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות רחוקות ביותר( נקבל כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\varDelta V_{G}}{\varDelta V_{R}}=\frac{R}{R_{T}}\label{eq:R/RT}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אנו יודעים את ערכו של ההתנגדות 
+\begin_inset Formula $R$
+\end_inset
+
+ ולכן אפשר לחשב כך את 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נרצה לראות את היחס שבין 
 \begin_inset Formula $V_{R}$
 \end_inset
 
@@ -458,12 +644,88 @@ ref{eq:f0}
 \begin_inset Formula $I_{0}$
 \end_inset
 
- הוא הזרם שזורם במעגל, ו 
+ הוא משרעת הזרם שזורם במעגל, ו 
 \begin_inset Formula $V_{G}^{0}$
 \end_inset
 
- הוא המשרעת של המחולל.
- 
+ הוא המשרעת של מתח המחולל.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בחלקו השני של הניסוי החלפנו את מיקום הקבל והנגד, וקיבלנו את המעגל הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp5pics/part2.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מערכת המעבדה עם החלפת הנגד והקבל מאיור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:RLC}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CLR"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+להכניס הסבר מהתמונה השניה שבטלפון
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*

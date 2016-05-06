@@ -98,17 +98,32 @@
 \lang english
 5
 \lang hebrew
- -- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-כותרת
-\end_layout
-
-\end_inset
-
-
+ -- מעגל תהודה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RLC
 \end_layout
 
 \begin_layout Author
@@ -133,12 +148,8 @@ galra@campus.technion.ac.il, dore@campus.technion.ac.il
 מטרת הניסוי
 \end_layout
 
-\begin_layout Section*
-מבוא
-\end_layout
-
 \begin_layout Standard
-במהלך הניסוי, המעגל העיקרי שהשתמשנו בו היה מעגל
+ניסוי זה נועד לבדוק את אופי ההתנהגות התהודתי של מעגל
 \family roman
 \series medium
 \shape up
@@ -188,7 +199,110 @@ RLC
 \uwave default
 \noun default
 \color inherit
-כמתואר באיור הבא - 
+טורי, ולאשש את החיזוי התאורטי באשר לתדר התהודה של המעגל, ויעילות התמסורת
+ של רכיבי הסליל והקבל במעגל כתלות בזרם, וברכיבי המעגל.
+ הצפי התיאורטי הוא ליעילות תמסורת )המאופיינת ע"י הגודל 
+\begin_inset Formula $\frac{I}{V_{G}^{0}}$
+\end_inset
+
+, היחס בין הזרם במעגל למשרעת המתח של המחולל( ביחס לתדירות המאופיינת ע"י
+ עקומת פעמון, כאשר התמסורת המקסימלית מתקבלת עבור תדר הרזוננס, ורוחב הפעמון
+ נקבע ע"י ערכי הקיבול, ההשראה וההתנגדות, כמתואר בנוסחאות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Qfactor}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Qfactor_f_dl}
+\end_layout
+
+\end_inset
+
+.
+ לצורך השוואת החיזוי התיאורטי למציאות, מושווים ערכים תאורטיים אל מול נמדדים
+ של תדר התהודה ושל מקדם האיכות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Q
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Section*
+מבוא
+\end_layout
+
+\begin_layout Standard
+רזוננס )תהודה( היא תופעה בה מתנד מחזורי מכניס אנרגיה למערכת לאורך כל מחזור
+ התנודה )במציאות, כמעט כל המחזור(, ובכך מביא את האנרגיה האצורה במערכת למקסימום.
+ התופעה מתרחשת כאשר למערכת יש תדר תנודה טבעי, והמתנד פועל על המערכת בתדר
+ זה.
+\end_layout
+
+\begin_layout Standard
+בניסוי זה עבדנו עם מעגל תהודה )מעגל תדר תנודה טבעי, כנ"ל(, המורכב מקבל,
+ סליל ונגד, כמתואר באיור הבא:
 \end_layout
 
 \begin_layout Standard
@@ -210,7 +324,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-תיאור מעכרת הניסוי
+מערכת הניסוי
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:RLC"
@@ -231,18 +345,17 @@ name "fig:RLC"
 \end_layout
 
 \begin_layout Standard
-כפי שניתן לראות בנינו את המערכת כך שכל הרכיבים מחוברים בטור.
- וחיברנו את המתח שנופל על הנגד לכניסה אחת של האוסילוסקופ, ואת המתח שהמחולל
- מוציא לכניסה השניה של האוסילוסקופ.
- נסמן ב 
+כפי שניתן לראות רכיבי המערכת מחוברים בטור.
+ מדדנו באמצעות אוסילוסקופ את נפילת המתח על הנגד, ואת המתח שמספק המחולל.
+ נסמנם ב-- 
 \begin_inset Formula $V_{R}$
 \end_inset
 
- את המתח הנפול על הנגד, וב 
+ ו--
 \begin_inset Formula $V_{G}$
 \end_inset
 
- את המתח הנכנס מהמחולל.
+ בהתאמה.
 \end_layout
 
 \begin_layout Standard
@@ -296,11 +409,19 @@ RLC
 \uwave default
 \noun default
 \color inherit
-טורי, אם נניח כי 
+טורי, תדירות התהודה היא:
+\begin_inset Formula 
+\[
+f_{0}=\sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}}
+\]
+
+\end_inset
+
+ במקרה בו 
 \begin_inset Formula $\frac{R^{2}}{4L^{2}}\ll\frac{1}{LC}$
 \end_inset
 
-, נקבל כי תדירות התהודה תהיה במקרה זה:
+, נוכל לקרב:
 \begin_inset Formula 
 \begin{equation}
 f_{0}=\frac{1}{2\pi\sqrt{LC}}\label{eq:f0}
@@ -316,7 +437,7 @@ f_{0}=\frac{1}{2\pi\sqrt{LC}}\label{eq:f0}
 \lang english
 Quality Factor
 \lang hebrew
-( המוגדר להיות כ:
+( המוגדר להיות:
 \end_layout
 
 \begin_layout Standard
@@ -335,8 +456,13 @@ Q=2\pi\frac{E}{P}
 \begin_inset Formula $P$
 \end_inset
 
- האנרגיה המתבזבז בזמן מחזור אחד בתדירות התהודה.
- ואם נציב ערכים אלו ונעשה חישובים מתמטיים נקבל כי:
+ האנרגיה המתבזבזת בזמן מחזור אחד בתדירות התהודה.
+ מהצבת הביטויים לאנרגיה האצורה )סכום האנרגיה המגנטית בסליל והחשמלית בקבל(,
+ וחישוב ממוצע הספק המעגל לאורך זמן מחזור )ההספק נתון ע"י 
+\begin_inset Formula $R_{T}I^{2}$
+\end_inset
+
+(, נקבל:
 \end_layout
 
 \begin_layout Standard
@@ -351,20 +477,29 @@ Q=\frac{\omega_{0}L}{R_{T}}
 \begin_inset Formula $\omega_{0}=2\pi f_{0}$
 \end_inset
 
-, ו 
+, ו--
 \begin_inset Formula $R_{T}$
 \end_inset
 
  היא ההתנגדות הכללית של המערכת.
- לפי ההנחה שלנו, ש 
-\begin_inset Formula $\frac{R^{2}}{4L^{2}}\ll\frac{1}{LC}$
+ תחת הקירוב בנוסחה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:f0}
+\end_layout
+
 \end_inset
 
-, אזי נקבל כי 
+, נקבל כי 
 \begin_inset Formula $\omega_{0}=\frac{1}{\sqrt{LC}}$
 \end_inset
 
-, ולכן:
+, ועל כן:
 \begin_inset Formula 
 \begin{equation}
 Q=\frac{\omega_{0}L}{R_{T}}=\frac{1}{\omega_{0}C}R_{T}=\frac{1}{R_{T}}\sqrt{\frac{L}{C}}\label{eq:Qfactor}
@@ -372,63 +507,15 @@ Q=\frac{\omega_{0}L}{R_{T}}=\frac{1}{\omega_{0}C}R_{T}=\frac{1}{R_{T}}\sqrt{\fra
 
 \end_inset
 
- 
-\begin_inset Note Note
-status open
 
-\begin_layout Plain Layout
-בעקרון צריך גם להוכיח כי
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-Q=f0/delta f0
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-אבל אין לי ככ שמץ איך להוכיח את זה
 \end_layout
+
+\begin_layout Standard
+נגדיר
+\begin_inset Formula 
+\[
+\Delta f=f_{1}-f_{2}
+\]
 
 \end_inset
 
@@ -436,93 +523,19 @@ Q=f0/delta f0
 \end_layout
 
 \begin_layout Standard
-לצורך חישוב 
-\begin_inset Formula $R_{T}$
+כאשר 
+\begin_inset Formula $f_{1},f_{2}$
 \end_inset
 
-, נראה על האוסילוסקופ כציר 
-\begin_inset Formula $X$
-\end_inset
-
- את 
-\begin_inset Formula $V_{G}$
-\end_inset
-
- ועל ציר 
-\begin_inset Formula $Y$
-\end_inset
-
- את 
-\begin_inset Formula $V_{R}$
-\end_inset
-
- בתדירות 
-\begin_inset Formula $f=f_{0}$
-\end_inset
-
- נקבל עקומה שהיא קו ישר, דבר שנובע מניסויים קודמים שעשינו עם עקומת ליסז'ו
- עבור תדירות התהודה.
- כמו כן משוואת אותו הגרף היא במקרה הנ"ל 
-\begin_inset Formula $y=\frac{R}{R_{T}}x$
-\end_inset
-
-, ולכן אם נחשב את שיפוע הגרף )על ידי לקיחת
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-נקודות רחוקות ביותר( נקבל כי:
+ הם שני התדרים בהם ההספק בחצי מערכו המקסימלי )ערכו בתדר התהודה(.
+ נחשב את גודל זה.
 \end_layout
 
 \begin_layout Standard
+מחוק אוהם ומיצוע על זמן מחזור עבור מתנד סינוסידיאלי, מתקיים:
 \begin_inset Formula 
 \begin{equation}
-\frac{\varDelta V_{G}}{\varDelta V_{R}}=\frac{R}{R_{T}}\label{eq:R/RT}
+I_{0}=\frac{V_{G}^{0}}{\vert Z\vert}\label{eq:I0}
 \end{equation}
 
 \end_inset
@@ -531,32 +544,7 @@ Q=f0/delta f0
 \end_layout
 
 \begin_layout Standard
-אנו יודעים את ערכו של ההתנגדות 
-\begin_inset Formula $R$
-\end_inset
-
- ולכן אפשר לחשב כך את 
-\begin_inset Formula $R_{T}$
-\end_inset
-
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-נרצה לראות את היחס שבין 
-\begin_inset Formula $V_{R}$
-\end_inset
-
- לבין 
-\begin_inset Formula $V_{G}$
-\end_inset
-
-, ולשם כך נצטרך למצוא את העכבה הכוללת.
- כיוון שזהו מעגל
+כאשר במעגל
 \family roman
 \series medium
 \shape up
@@ -583,15 +571,11 @@ Q=f0/delta f0
 \lang english
 RLC
 \lang hebrew
-, נקבל כי הערך המוחלט של העכבה עבור תדירות 
-\begin_inset Formula $\omega$
-\end_inset
-
- הוא:
+:
 \begin_inset Formula 
-\[
-\left|Z\right|=\sqrt{R_{T}^{2}+\left(\omega L-\frac{1}{\omega C}\right)^{2}}
-\]
+\begin{eqnarray}
+\vert Z\vert & = & R_{T}\sqrt{1+\left(\omega L-\frac{1}{\omega C}\right)^{2}}\label{eq:Z}
+\end{eqnarray}
 
 \end_inset
 
@@ -599,11 +583,7 @@ RLC
 \end_layout
 
 \begin_layout Standard
-ניתן לראות שעבור התדירות 
-\begin_inset Formula $f_{0}$
-\end_inset
-
- )כפי שמוגדרת במשוואה 
+משימוש במשוואה 
 \begin_inset ERT
 status open
 
@@ -611,17 +591,223 @@ status open
 
 
 \backslash
-ref{eq:f0}
+ref{eq:Qfactor}
 \end_layout
 
 \end_inset
 
-( נקבל את העכבה המינימאלית, שהיא תהיה שווה פשוט ל 
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\vert Z\vert=R_{T}\sqrt{1+Q^{2}\left(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)^{2}}\label{eq:absZ}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+על כן, מנוסחאות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:I0}
+\end_layout
+
+\end_inset
+
+ ו--
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:absZ}
+\end_layout
+
+\end_inset
+
+ נובע כי:
+\begin_inset Formula 
+\begin{eqnarray*}
+\vert Z(f_{1,2})\vert^{2} & = & 2\vert Z(f_{0})\vert^{2}\\
+ & \Downarrow\\
+Q\left(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right) & = & \pm1
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מפתרון המשוואה עבור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\begin_inset Formula $f$
+\end_inset
+
+
+\lang hebrew
+, נקבל את 
+\begin_inset Formula $f_{1},f_{2}$
+\end_inset
+
+ .
+ מתקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\Delta f & = & \frac{f_{0}}{Q}\nonumber \\
+ & \Downarrow\nonumber \\
+Q & = & \frac{f_{0}}{\Delta f}\label{eq:Qfactor_f_df}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לצורך חישוב 
 \begin_inset Formula $R_{T}$
 \end_inset
 
- וזה קורה כיוון שבתדירות הזו נקבל כי הסליל והקבל "מבטלים" זה את זה, ונקבל
- קצר בקטע הזה, ולכן ההתנגדות השקולה תהיה רק 
+, נציג על האוסילוסקופ את 
+\begin_inset Formula $V_{G}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $V_{R}$
+\end_inset
+
+.
+ בתדירות 
+\begin_inset Formula $f=f_{0}$
+\end_inset
+
+ נקבל יתקבל קו ישר, מכיוון שהאימפנדס מתאפס )ועל כן מתקבלת תמסורת מקסימלית,
+ ממנה נגזרת תדירות התהודה(.
+ מפיתוח משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:I0}
+\end_layout
+
+\end_inset
+
+ וחישוב 
+\begin_inset Formula $\Delta V_{G},\,\Delta V_{R}$
+\end_inset
+
+ע"י מדידת ההפרש בין שתי נק' על הישר המתקבל, נוכל להעריך:
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{I_{0}}{V_{G}^{0}} & = & \frac{\frac{\Delta V_{R}}{R}}{V_{G}}=\frac{1}{\vert Z(f_{0})\vert}=\frac{1}{R_{T}}
+\end{eqnarray*}
+
+\end_inset
+
+ועל כן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\varDelta V_{G}}{\varDelta V_{R}}=\frac{R}{R_{T}}\label{eq:R/RT}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R$
+\end_inset
+
+ידוע, וכך ניתן לחשב את 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ממשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Z}
+\end_layout
+
+\end_inset
+
+ נובע בבירור כי האימפנדס המינימלי מתקבל עבור תדר התהודה, אז מתקיים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\vert Z(f_{0})\vert & = & R_{T}\label{eq:Z_f0}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הסיבה לכך, היא שבתדירות הזו נקבל כי הסליל והקבל "מבטלים" זה את זה, על כן
+ הם מהווים יחד קצר, ולכן האימפנדס הכולל במעגל הוא 
 \begin_inset Formula $R_{T}$
 \end_inset
 
@@ -629,7 +815,33 @@ ref{eq:f0}
 \end_layout
 
 \begin_layout Standard
-לכן, בעזרת שיקולים מתמטיים, נקבל כי:
+ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:I0}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:absZ}
+\end_layout
+
+\end_inset
+
+ מתקבל:
 \end_layout
 
 \begin_layout Standard
@@ -649,14 +861,29 @@ ref{eq:f0}
 \end_inset
 
  הוא המשרעת של מתח המחולל.
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+במהלך הניסוי, נמדדו ערכי 
+\begin_inset Formula $V_{R},V_{G}$
+\end_inset
+
+, מהם נגזרו הנתונים שיוצגו כך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\frac{I_{0}}{V_{G}^{0}} & = & \frac{\frac{V_{R}}{R}}{V_{G}^{0}}\label{eq:data_deriv}
+\end{eqnarray}
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-בחלקו השני של הניסוי החלפנו את מיקום הקבל והנגד, וקיבלנו את המעגל הבא:
+בחלקו השני של הניסוי החלפנו את מיקום הקבל והנגד במערכת, כמתואר באיור הבא:
 \end_layout
 
 \begin_layout Standard
@@ -678,7 +905,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-מערכת המעבדה עם החלפת הנגד והקבל מאיור 
+מערכת הניסוי לאחר החלפת הנגד והקבל מאיור 
 \begin_inset ERT
 status open
 
@@ -716,24 +943,1254 @@ name "fig:CLR"
 \end_layout
 
 \begin_layout Standard
-נסתכל על המערכת החדשה.
- פה נרצה למדוד את משרעת המתח על הקבל, 
-\begin_inset Formula $V_{C}^{0}$
+במערכת זו, הקבל מהווה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+LPF
+\lang hebrew
+, בעוד שהסליל מהווה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+HPF
+\lang hebrew
+.
+ אולם, תוצאת מדידת מפל המתח על שניהם יחדיו, 
+\begin_inset Formula $V_{L}+V_{C}$
 \end_inset
 
-, ואת משרעת המתח על הקבל ועל הסליל יחדיו, 
-\begin_inset Formula $\left(V_{C}^{0}+V_{L}^{0}\right)$
+, היא סכום מפלי המתח על כל רכיב לחוד, על כן נצפה לקבל גרף עם מינימום באזור
+ תדר החסימה של שני המעגלים.
+ בנוסף, ידוע כי בתדרת התהודה )הזהה לזה של המעגל המקורי(, האימפנדס הכולל
+ במעגל הוא 
+\begin_inset Formula $R_{T}$
 \end_inset
 
-, ונראה מה היחס ביניהם.
+ )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Z_f0}
+\end_layout
+
+\end_inset
+
+(, על כן נצפה לקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+(V_{L}+V_{C})(f_{0}) & = & (V_{L}+V_{C})_{min}\label{eq:VL_and_VC}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואילו עבור 
+\begin_inset Formula $V_{C}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+ נצפה לקבל גרף אופייני של מסנן תדר נמוך )
+\lang english
+LPF
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Standard
+לצורך חישובי שגיאות נעשה שימוש בנוסחה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\delta f(x_{1},...,x_{n})=\sqrt{\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_{i}}\delta x_{i}\right)^{2}}\label{eq:err_calc}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לצורך השוואת גדלים )תוצאות תיאורטית מול נמדדות, לדוגמה(, נעשה שימוש במבחן
+ האטה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\eta=\frac{\vert x_{1}-x_{2}\vert}{\sqrt{\delta x_{1}^{2}+\delta x_{2}^{2}}}\label{eq:etta_test}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
 תוצאות
 \end_layout
 
+\begin_layout Standard
+להלן התוצאות המתקבלות עבור מערכת עם הרכיבים הבאים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+L & = & 0.0010\pm0.0002[H]\label{eq:1st_exp_parts}\\
+C & = & 1.0\pm0.1[\mu F]\nonumber \\
+R & = & \left(1044\pm0.1\right)\times10^{2}[\mbox{\Omega]}\nonumber \\
+f_{0,meas} & = & 5500\pm200[Hz]\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בגרפים הבאים מוצג 
+\begin_inset Formula $\frac{I_{p}}{V_{G}^{0}}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ הן העקומה התיאורטית ע"פ הערכים הנמדדים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, ומשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:f0}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Qfactor}
+\end_layout
+
+\end_inset
+
+ ו--
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:I0/VG}
+\end_layout
+
+\end_inset
+
+, והן הערכים הנמדדים, ע"פ משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:data_deriv}
+\end_layout
+
+\end_inset
+
+.
+ על הגרפים מסומן הערך התאורטי של 
+\begin_inset Formula $f_{0}$
+\end_inset
+
+, ע"פ משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:f0}
+\end_layout
+
+\end_inset
+
+.
+ גרף אחד מוצג בסקאלה לינארית, בעוד שהשני מציג את ציר התדירויות בסקאלה לוגריתמית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp1_plot.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{I_{p}}{V_{G}^{0}}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ סקאלה לינארית.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp1_lin"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp1_log_plot.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{I_{p}}{V_{G}^{0}}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ סקאלה לוגריתמית.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp1_log"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בגרפים הבאים מוצגים אותם נתונים, כפי שנמדדו וחושבו עבור מערכת שונה עם הרכיבים
+ הבאים:
+\begin_inset Formula 
+\begin{eqnarray}
+L & = & 0.010\pm0.002[H]\label{eq:2nd_exp_parts}\\
+C & = & 0.10\pm0.01[\mu F]\nonumber \\
+R & = & 219.5\pm0.5[\mbox{\Omega]}\nonumber \\
+f_{0} & = & 5340\pm150[Hz]\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp2_plot.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{I_{p}}{V_{G}^{0}}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ סקאלה לינארית.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp2_lin"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp2_log_plot.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{I_{p}}{V_{G}^{0}}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ סקאלה לוגריתמית.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp2_log"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בגרף הבא מוצגות המדידות של 
+\begin_inset Formula $V_{L}+V_{C}$
+\end_inset
+
+ ו--
+\begin_inset Formula $V_{C}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+, במערכת המתוארת באיור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:CLR}
+\end_layout
+
+\end_inset
+
+.
+ ע"ג הגרף מסומן תדירות התהודה של המערכת.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename exp5pics/part2_res.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{L}+V_{C}$
+\end_inset
+
+ ו--
+\begin_inset Formula $V_{C}$
+\end_inset
+
+ כנגד 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ מסומנת בכחול תדירות התהודה של המערכת.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:exp3"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 דיון בתוצאות והשוואה לתאוריה
+\end_layout
+
+\begin_layout Standard
+בחלקו הראשון של הניסוי, בשני הניסויים )ערכי המערכות המופיעים במשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{2nd_exp_parts}
+\end_layout
+
+\end_inset
+
+(, ישנה התאמה ויזואלית בין העקומה התיאורטית לבין הערכים הנמדדים, אלא שבשני
+ המקרים בסביבת תדר הרזוננס הערכים הנמדדים המתקבלים קטנים מאלו התיאורטיים.
+ אנו מעריכים כי הסיבה לכך היא איבודי אנרגיה במערכת, הבאים לידי ביטוי בתדר
+ הרזוננס, דוגמת בידוד לא מושלם בקבל, או בריחה מגנטית בסליל.
+\end_layout
+
+\begin_layout Standard
+לשם השוואה כמותית בין התוצאות לתיאוריה, נשתמש במבחן האטה )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:etta_test}
+\end_layout
+
+\end_inset
+
+(.
+ מהערכים במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, ומשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:f0}
+\end_layout
+
+\end_inset
+
+ ו--
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:err_calc}
+\end_layout
+
+\end_inset
+
+ נקבל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{0,theo}^{exp1}=5032\pm2[Hz]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהשוואת ערך זה עם הערך הנמדד )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{1st_exp_parts}
+\end_layout
+
+\end_inset
+
+(, מתקבל:
+\begin_inset Formula 
+\[
+\eta_{f_{0}}^{exp1}=2.3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משמע, הערך התאורטי הולם את הערך הנמדד.
+ חישוב דומה עבור המערכת השנייה )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:2nd_exp_parts}
+\end_layout
+
+\end_inset
+
+( מביא לתוצאות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{0,theo}^{exp2} & = & 5032\pm14[Hz]\\
+\eta_{f_{0}}^{exp2} & = & 2.04
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+גם במערכת זו, מתקבלת התאמה טובה בין הערך התיאורטי לערך הנמדד.
+\end_layout
+
+\begin_layout Standard
+באשר למקדם האיכות )
+\begin_inset Formula $Q$
+\end_inset
+
+(, משימוש בנתונים ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{2nd_exp_parts}
+\end_layout
+
+\end_inset
+
+ ובמשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Qfactor}
+\end_layout
+
+\end_inset
+
+ מתקבלים הערכים התיאורטיים הבאים:
+\end_layout
+
+\begin_layout Standard
+מהנתונים עבור הערך הנמדד של 
+\begin_inset Formula $f_{0}$
+\end_inset
+
+ )משוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{2nd_exp_parts}
+\end_layout
+
+\end_inset
+
+(, הערכת 
+\begin_inset Formula $\Delta f$
+\end_inset
+
+ מגרפים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp1_lin}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp2_lin}
+\end_layout
+
+\end_inset
+
+ ושימוש במשוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Qfactor_f_df}
+\end_layout
+
+\end_inset
+
+(, מתקבלים הערכים הבאים עבור 
+\begin_inset Formula $\Delta f$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta f_{meas}^{exp1} & = & 37000\pm3000[Hz]\\
+\Delta f_{meas}^{exp2} & = & 9000\pm500[Hz]
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וערכי 
+\begin_inset Formula $Q$
+\end_inset
+
+ מדודים אלו )חישוב שגיאות ע"פ משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:err_calc}
+\end_layout
+
+\end_inset
+
+.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $Q$
+\end_inset
+
+ הינו חסר יחידות(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+Q_{meas}^{exp1} & = & 0.15\pm0.01\\
+Q_{meas}^{exp2} & = & 0.59\pm0.04
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משימוש בנתונים ממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{2nd_exp_parts}
+\end_layout
+
+\end_inset
+
+, וממשוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:Qfactor}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:err_calc}
+\end_layout
+
+\end_inset
+
+ מתקבלים הערכים התיאורטיים הבאים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+Q_{theo}^{exp1} & = & 0.10\pm0.01\\
+Q_{theo}^{exp2} & = & 1.1\pm0.1
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהשוואת הערכים התיאורטיים לנמדדים, ע"פ מבחן האטה )משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:etta_test}
+\end_layout
+
+\end_inset
+
+( מתקבלות התוצאות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\eta_{Q}^{exp1} & = & 3.5\\
+\eta_{Q}^{exp2} & = & 4.5
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתקבלת התאמה חלקית בלבד לתיאוריה.
+ אולם, נשים לב כי ה"גרנולריות" )הרזולוציה( של תוצאת ההשוואה, ביחס לשגיאה,
+ היא נמוכה.
+ כלומר, המספרים המוצגים לעיל מעוגלים עד לספרה המשמעותית ביחס לשגיאה.
+ משמע, שגיאה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.014
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תעוגל ל--
+\numeric on
+0.01
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)לדוגמה(, ובאופן דומה עבור הערכים.
+ אולם, הצבה של שגיאה כנ"ל במבחן האטה, )
+\numeric on
+0.014
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור 
+\begin_inset Formula $Q_{theo}^{exp1}$
+\end_inset
+
+ ו--
+\numeric on
+0.14
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור 
+\begin_inset Formula $Q_{theo}^{exp2}$
+\end_inset
+
+( מביאה לתוצאות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\eta{}_{Q}^{*exp1} & = & 2.2\\
+\eta{}_{Q}^{*exp2} & = & 3.4
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משמע, עבור הניסוי הראשון התוצאה המתקבלת מהווה התאמה יפה לתיאוריה.
+ באשר לניסוי השני, מתקבלת התאמה חלקית.
+ הסיבה לכך, להערכתנו, נובעת מכך שבסביבת 
+\begin_inset Formula $f_{0}$
+\end_inset
+
+ הנק' הנמדדות סוטות מהגרף התיאורטי, כפי שנדון במבוא.
+\end_layout
+
+\begin_layout Standard
+בניסוי השלישי )איור 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp3}
+\end_layout
+
+\end_inset
+
+, מתקבלת, כצפוי, עקומת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+LPF
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור 
+\begin_inset Formula $V_{C}$
+\end_inset
+
+, ועקומה עם מינימום ב--
+\begin_inset Formula $f_{0}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $V_{L}+V_{C}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section*

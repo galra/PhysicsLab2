@@ -716,16 +716,16 @@ name "fig:CLR"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-להכניס הסבר מהתמונה השניה שבטלפון
-\end_layout
-
+נסתכל על המערכת החדשה.
+ פה נרצה למדוד את משרעת המתח על הקבל, 
+\begin_inset Formula $V_{C}^{0}$
 \end_inset
 
+, ואת משרעת המתח על הקבל ועל הסליל יחדיו, 
+\begin_inset Formula $\left(V_{C}^{0}+V_{L}^{0}\right)$
+\end_inset
 
+, ונראה מה היחס ביניהם.
 \end_layout
 
 \begin_layout Section*

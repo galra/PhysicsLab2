@@ -252,7 +252,7 @@ status open
 
 
 \backslash
-ref{eq:Qfactor_f_dl}
+ref{eq:Qfactor_f_df}
 \end_layout
 
 \end_inset
@@ -1494,7 +1494,7 @@ status open
 
 
 \backslash
-ref{1st_exp_parts}
+ref{eq:1st_exp_parts}
 \end_layout
 
 \end_inset
@@ -1507,7 +1507,7 @@ status open
 
 
 \backslash
-ref{2nd_exp_parts}
+ref{eq:2nd_exp_parts}
 \end_layout
 
 \end_inset
@@ -1595,7 +1595,7 @@ status open
 
 
 \backslash
-ref{1st_exp_parts}
+ref{eq:1st_exp_parts}
 \end_layout
 
 \end_inset
@@ -1658,7 +1658,7 @@ status open
 
 
 \backslash
-ref{1st_exp_parts}
+ref{eq:1st_exp_parts}
 \end_layout
 
 \end_inset
@@ -1671,7 +1671,7 @@ status open
 
 
 \backslash
-ref{2nd_exp_parts}
+ref{eq:2nd_exp_parts}
 \end_layout
 
 \end_inset
@@ -1705,7 +1705,7 @@ status open
 
 
 \backslash
-ref{1st_exp_parts}
+ref{eq:1st_exp_parts}
 \end_layout
 
 \end_inset
@@ -1718,7 +1718,7 @@ status open
 
 
 \backslash
-ref{2nd_exp_parts}
+ref{eq:2nd_exp_parts}
 \end_layout
 
 \end_inset
@@ -1856,7 +1856,7 @@ status open
 
 
 \backslash
-ref{1st_exp_parts}
+ref{eq:1st_exp_parts}
 \end_layout
 
 \end_inset
@@ -1869,7 +1869,7 @@ status open
 
 
 \backslash
-ref{2nd_exp_parts}
+ref{eq:2nd_exp_parts}
 \end_layout
 
 \end_inset

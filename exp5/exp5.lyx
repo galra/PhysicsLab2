@@ -1512,7 +1512,7 @@ ref{2nd_exp_parts}
 
 \end_inset
 
-(, ישנה התאמה ויזואלית בין העקומה התיאורטית לבין הערכים הנמדדים, אלא שבשני
+(, ישנה התאמה איכותית בין העקומה התיאורטית לבין הערכים הנמדדים, אלא שבשני
  המקרים בסביבת תדר הרזוננס הערכים הנמדדים המתקבלים קטנים מאלו התיאורטיים.
  אנו מעריכים כי הסיבה לכך היא איבודי אנרגיה במערכת, הבאים לידי ביטוי בתדר
  הרזוננס, דוגמת בידוד לא מושלם בקבל, או בריחה מגנטית בסליל.
@@ -1602,9 +1602,9 @@ ref{1st_exp_parts}
 
 (, מתקבל:
 \begin_inset Formula 
-\[
-\eta_{f_{0}}^{exp1}=2.3
-\]
+\begin{equation}
+\eta_{f_{0}}^{exp1}=2.3\label{eq:etta_1_f0}
+\end{equation}
 
 \end_inset
 
@@ -1631,10 +1631,10 @@ ref{eq:2nd_exp_parts}
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-f_{0,theo}^{exp2} & = & 5032\pm14[Hz]\\
-\eta_{f_{0}}^{exp2} & = & 2.04
-\end{eqnarray*}
+\begin{eqnarray}
+f_{0,theo}^{exp2} & = & 5032\pm14[Hz]\nonumber \\
+\eta_{f_{0}}^{exp2} & = & 2.04\label{eq:etta_2_f0}
+\end{eqnarray}
 
 \end_inset
 
@@ -1905,10 +1905,10 @@ ref{eq:err_calc}
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-Q_{theo}^{exp1} & = & 0.10\pm0.01\\
-Q_{theo}^{exp2} & = & 1.1\pm0.1
-\end{eqnarray*}
+\begin{eqnarray}
+Q_{theo}^{exp1} & = & 0.10\pm0.01\nonumber \\
+Q_{theo}^{exp2} & = & 1.1\pm0.1\label{eq:big_q}
+\end{eqnarray}
 
 \end_inset
 
@@ -1934,10 +1934,10 @@ ref{eq:etta_test}
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-\eta_{Q}^{exp1} & = & 3.5\\
-\eta_{Q}^{exp2} & = & 4.5
-\end{eqnarray*}
+\begin{eqnarray}
+\eta_{Q}^{exp1} & = & 3.5\label{eq:etta_q}\\
+\eta_{Q}^{exp2} & = & 4.5\nonumber 
+\end{eqnarray}
 
 \end_inset
 
@@ -2094,10 +2094,10 @@ ref{eq:etta_test}
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-\eta{}_{Q}^{*exp1} & = & 2.2\\
-\eta{}_{Q}^{*exp2} & = & 3.4
-\end{eqnarray*}
+\begin{eqnarray}
+\eta{}_{Q}^{*exp1} & = & 2.2\label{eq:semietta_q}\\
+\eta{}_{Q}^{*exp2} & = & 3.4\nonumber 
+\end{eqnarray}
 
 \end_inset
 
@@ -2195,6 +2195,621 @@ LPF
 
 \begin_layout Section*
 מסקנות
+\end_layout
+
+\begin_layout Standard
+בניסוי זה רצינו לעמת את התנהגות הרזוננס החזויה ע"פ התיאוריה במעגלי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+RLC
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עם המציאות.
+ התקבלו תוצאות אשר הולמות, לכאורה, את התיאוריה )גרפים 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp1_log}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{fig:exp2_log}
+\end_layout
+
+\end_inset
+
+(.
+ חריגה מהכלל היא בסביבת תדר הרזוננס, אז מתקבלת תמסורת נמוכה מזו החזויה ע"פ
+ התיאוריה )מופיע בגרפים כהפרשים של 
+\begin_inset Formula $0.001\Omega$
+\end_inset
+
+ ו--
+\begin_inset Formula $0.1\Omega$
+\end_inset
+
+, בהתאמה, בין המקסימום התיאורטי למקסימום המתקבל(.
+ כלומר, לא מתקבל קצר מושלם.
+ הערכתנו היא כי הסיבה לכך היא איבודי אנרגיה ברכיבים ה--
+\lang english
+LC
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)דוגמת בריחה מגנטית בסליל(.
+\end_layout
+
+\begin_layout Standard
+לצורך השוואה כמותית, הושוו ערכי מקדם האיכות התיאורטי והנמדד, ותדר הרזוננס
+ התיאורטי והנמדד, בשני מעגלים בעלי רכיבים שונים )משוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:1st_exp_parts}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:2nd_exp_parts}
+\end_layout
+
+\end_inset
+
+(.
+ עבור תדרי הרזוננס, התקבלה התאמה טובה בין התיאוריה למציאות, עם ערכי 
+\begin_inset Formula $\eta$
+\end_inset
+
+ של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.04
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו--
+\numeric on
+2.3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)משוואות 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:etta_1_f0}
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:etta_2_f0}
+\end_layout
+
+\end_inset
+
+(.
+ עבור מקדם האיכות, מתקבלים ערכי 
+\begin_inset Formula $\eta$
+\end_inset
+
+ מעט גדולים, לכאורה:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3.5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו--
+\numeric on
+4.5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:etta_q}
+\end_layout
+
+\end_inset
+
+(.
+ אולם, אם נשים לב לכך שמידת הרגישות של אטה לסטייה של חצי יחידת שגיאה היא
+ גדולה ביותר, וע"י סטייה של חצי יחידה כנ"ל )אשר אינה משוקללת בחישובי השגיאה,
+ ומעוגלת לספרת השגיאה המשמעותית הקרובה ביותר, כמקובל( יתקבלו ערכי 
+\begin_inset Formula $\eta$
+\end_inset
+
+הבאים:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו--
+\numeric on
+3.4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:semietta_q}
+\end_layout
+
+\end_inset
+
+(.
+ עבור המעגל הראשון, נוכל להסיק כי ערך ה--
+\begin_inset Formula $\eta$
+\end_inset
+
+ה"אפקטיבי" שוכן בין
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ל-
+\numeric on
+4
+\numeric off
+, כלומר בסביבות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, משמע מתקבלת התאמה בין התיאוריה למציאות.
+ בעבור הערך השני, מתקבלת סטייה בניסוי הנמדד מהערך התיאורטי.
+ במערכת זו, מקדם האיכות גדול יותר בסדר גודל )
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לעומת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.1
+\numeric off
+, משוואה 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:big_q}
+\end_layout
+
+\end_inset
+
+(, כלומר העקומה צרה הרבה יותר.
+ אם ניקח בחשבון את ה"הנחתה" בסביבת המקסימום, בתדר הרזוננס, כפי שתוארה בתחילת
+ הסעיף, ניתן להבין כי מקור הסטייה הנ"ל הוא בכך שככל שהעקומה צרה יותר, העיוות
+ ברוחב העקומה, 
+\begin_inset Formula $\Delta f$
+\end_inset
+
+, בשל ה"הנחתה" הנ"ל, יהיה משמעותי יותר.
+ על כן במערכת השניה, עם מקדם האיכות הגדול בסדר גדול, התקבלה סטייה משמעותית
+ מהתיאוריה ביחס למערכת הראשונה.
 \end_layout
 
 \end_body
